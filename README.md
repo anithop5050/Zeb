@@ -49,9 +49,9 @@ pip install lpips
 ## 📖 Usage Guide
 
 ### 0. Launching the GUI (Watermark Studio)
-Access the dark-themed interface for interactive embedding, extraction, and attack simulation You can use this for Embedding ,Extracting & verifying .
+Access the dark-themed interface for interactive embedding, extraction, and attack simulation. Use this for embedding, extracting & verifying watermarks.
 ```bash
-python app.py
+python inference/app.py
 ```
 *Note: This interface provides real-time confidence/BER display and X-ray debug visualization panels.*
 
@@ -59,14 +59,14 @@ python app.py
 You can embed a 64-bit watermark (defined by a seed) into any image. The system uses tile-based processing to handle images of any resolution.
 
 ```bash
-python src/inference.py --mode embed --input image.jpg --output protected.png --seed 123456 --alpha 0.05
+python inference/inference.py --mode embed --input image.jpg --output protected.png --seed 123456 --alpha 0.05
 ```
 
 ### 2. Extracting & Verifying
 Extraction does not require the original image. The multi-scale decoder handles varied resolutions automatically.
 
 ```bash
-python src/inference.py --mode extract --input protected.png
+python inference/inference.py --mode extract --input protected.png
 ```
 
 ### 3. Registry Management
@@ -74,10 +74,10 @@ Manage the ownership database via the CLI tool.
 
 ```bash
 # Register a new owner
-python tools/registry_cli.py register --name "Alice" --email "alice@example.com" --license exclusive
+python core/registry_cli.py register --name "Alice" --email "alice@example.com" --license exclusive
 
 # Look up a seed
-python tools/registry_cli.py lookup --seed 123456
+python core/registry_cli.py lookup --seed 123456
 ```
 
 ---
@@ -111,12 +111,37 @@ Based on Phase 4 curriculum training, the system achieves the following Bit Erro
 
 ```text
 Zeb/
-├── src/                # Core logic: models, semantic layers, registry
-├── tools/              # Training scripts (Colab), attack simulators, CLI
-├── tests/              # Comprehensive unit test suite (25+ tests)
-├── checkpoints/        # Model weights (e.g., checkpoint_hvs_best.pth)
-├── reliability.py      # Implementation of R1-R8 protocols
-└── seed_registry.db    # SQLite database for ownership tracking
+├── analysis/           # Analysis scripts, attack simulations, and validation reports
+│   ├── attack_simulator.py         # Simulate image attacks (JPEG, noise, blur, etc.)
+│   ├── adapt_report_docx.py        # Convert analysis reports to DOCX format
+│   └── *.json, *.txt, *.tsv        # Validation reports and template data
+│
+├── checkpoints/        # Pre-trained model weights
+│   └── checkpoint_hvs_best.pth     # HVS-aware encoder checkpoint (94.74 MB)
+│
+├── core/               # Core system modules
+│   ├── registry_cli.py             # CLI for ownership registry management
+│   ├── reliability.py              # R1-R8 reliability protocols implementation
+│   ├── seed_registry.py            # Seed registry data access layer
+│   └── seed_registry.db            # SQLite database for ownership tracking
+│
+├── inference/          # Inference and GUI application
+│   ├── app.py                      # Watermark Studio GUI (embedding, extraction, attacks)
+│   └── inference.py                # Inference engine (embed/extract/verify)
+│
+├── training/           # Model training and adversarial attack code
+│   ├── models.py                   # U-Net encoder/decoder architectures
+│   ├── semantic_watermark.py       # Semantic layer (Sobel + flow fields)
+│   ├── adversarial_poison.py       # FGSM/PGD poisoning strategies
+│   ├── attacks.py                  # Attack simulation suite (JPEG, Gaussian, etc.)
+│   ├── train.py                    # Main training loop
+│   ├── train_production.py         # Production curriculum training
+│   ├── utils_loss_metrics.py       # Loss functions and BER metrics
+│   └── Fine_Tune_Watermarking_Colab.ipynb  # Google Colab fine-tuning notebook
+│
+├── README.md           # This file
+├── ZEB.md              # Detailed system documentation
+└── .gitignore          # Git ignore rules (excludes .venv, __pycache__, etc.)
 ```
 
 

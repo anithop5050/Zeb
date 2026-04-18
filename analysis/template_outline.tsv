@@ -1,0 +1,102 @@
+000	page=2026	paras=4	FLEXIBOT | AN AI POWERED ACADEMIC ASSISTANT
+001	page=?	paras=8	LOURDES MATHA COLLEGE OF SCIENCE AND TECHNOLOGY | KUTTICHAL, THIRUVANATHAPURAM-695574
+002	page=?	paras=3	DECLARATION | I undersigned here by declared that the project report “FLEXIBOT – AN AI POWERED ACADEMIC ASSISTANT” submitted for partial fulfilment of the requirements for the awar
+003	page=?	paras=7	ACKNOWLEDGEMENT | An endeavour over a long time can be successful only with advice and support of many well-wishers. I wish to place on record my profound indebtedness and gratitud
+004	page=17	paras=2	CONTENTS | CONTENT 	Page No ABSTRACT 		1 CHAPTER 1  / 1.INTRODUCTION  / 	 1.1 GENERAL INTRODUCTION 		2 	 1.2 GOAL OF THE PROJECT 		3 CHAPTER 2  / 2. LITERATURE SURVEY  / 	 2.1 STUD
+005	page=57	paras=31	4.3.6 NODE JS 17 | 4.3.7 MYSQL 18
+006	page=84	paras=20	7.2.8 WHITEBOX TESTING 57 | 7.3 TEST CASES 58
+007	page=1	paras=4	ABSTRACT | Academic institutions generate large volumes of academic information such as syllabus, regulations, timetables, circulars, and examination details. However, accessing th
+008	page=?	paras=1	CHAPTER-1  / INTRODUCTION
+009	page=2	paras=8	1.1 GENERAL INTRODUCTION | The rapid advancement of Artificial Intelligence (AI) has significantly transformed various sectors, including education. Modern educational institutions
+010	page=3	paras=8	1.2 GOAL OF THE PROJECT | The primary goal of the project FLEXIBOT – AI Powered Academic Assistant System is to design and develop an intelligent, centralized academic platform tha
+011	page=?	paras=1	CHAPTER-2  / LITERATURE SURVEY
+012	page=4	paras=7	2.1 STUDY OF SIMILAR WORKS | 1. AI Chatbot for Educational Institution: A Case Study (IEEE, 2025)  / 	This paper presents the development of an AI chatbot designed to assist users 
+013	page=5	paras=12	3. AI Powered Academic Assistant Using Conversational AI (IEEE, 2023) | This research explores the development of an AI-based academic assistant that uses conversational artificial
+014	page=6	paras=12	5. Intelligent Document Retrieval and QA System in Education (IEEE, 2022) | This study focuses on the design of an intelligent document retrieval system that uses semantic search a
+015	page=7	paras=6	2.2 EXISTING SYSTEM | The existing systems used in educational institutions mainly depend on traditional methods such as official websites, notice boards, emails, and document repo
+016	page=8	paras=10	2.3 DRAWBACKS OF EXISTING SYSTEM | 1. Time-Consuming Information Retrieval  / Users have to manually search through multiple sources such as websites, documents, and notice boards,
+017	page=?	paras=1	CHAPTER-3  / OVERALL DESCRIPTION
+018	page=9	paras=10	3.1 PROPOSED SYSTEM | The proposed system, FLEXIBOT, is an AI-Powered Academic Assistant designed to provide a centralized platform for managing and accessing academic information 
+019	page=10	paras=14	•Multi-User System  / Supports different users including Admin, Faculty, Student, and Alumni within the same system. | •Easy Information Retrieval  / Allows users to quickly obtain
+020	page=11	paras=11	•Centralized Data Handling  / Maintains all academic information in a single system for easy access and management. | •User Interaction Management  / 	Facilitates smooth interactio
+021	page=12	paras=13	The requirement specification for the proposed system is as follows: | •User Authentication and Access Control  / The system should provide a secure login mechanism for all users a
+022	page=13	paras=12	and resources. This study helps in identifying potential risks and ensures that the system can be successfully implemented in a real-world environment. | In the case of FLEXIBOT, t
+023	page=14	paras=6	The benefits provided by the system, such as time-saving, improved efficiency, and better information management, outweigh the costs involved. Therefore, the system is considered e
+024	page=?	paras=1	CHAPTER-4  / OPERATING ENVIRONMENT
+025	page=15	paras=26	4.1 HARDWARE REQUIREMENTS | The system is designed to function on standard computing environments without requiring
+026	page=16	paras=7	entire page. React also supports unidirectional data flow, making application behaviour more predictable and easier to debug. Additionally, it integrates easily with other librarie
+027	page=17	paras=8	4.3.4 PYTHON | Python is a high-level, interpreted, and general-purpose programming language known for its simplicity, readability, and ease of use. It supports multiple programmin
+028	page=18	paras=7	handle multiple client requests simultaneously without waiting for previous operations to complete. This makes it highly efficient and suitable for building scalable and high-perfo
+029	page=19	paras=5	contextual understanding, and high-quality response generation, making it highly suitable for advanced conversational AI applications. The “Versatile” variant is specifically optim
+030	page=?	paras=1	CHAPTER-5  / DESIGN
+031	page=20	paras=11	5.1 SYSTEM DESIGN | System Design involves translating system requirements and conceptual design into technical specifications and general flow of processing. After the system requ
+032	page=21	paras=4	5.2 WORKFLOW DIAGRAM | Figure A
+033	page=22	paras=5	5.3 USE CASE DIAGRAM | 5.3.1 ADMIN AND FACULTY
+034	page=23	paras=4	5.3.3 STUDENT AND ALUMINI | Figure C
+035	page=24	paras=6	5.4 INPUT DESIGN | Input design is the process of converting user-oriented inputs into a computer-based format for efficient processing. The primary objective of input design is to
+036	page=25	paras=9	5.5 OUTPUT DESIGN | Output design refers to the process of presenting the results and information generated by the system in a clear, meaningful, and user-friendly format. The main
+037	page=26	paras=30	5.6 PROGRAM DESIGN | Module Breakdown:
+038	page=27	paras=7	4. ALUMINI MODULE  / 	•	Posts job opportunities for students  / 	•	Views student profiles for recruitment and interaction 	•	Communicates with students through chat  / 	• / 	Shares
+039	page=28	paras=5	5.8 TABLE DESIGN | Table design is the process of defining the structure of database tables, including fields, data types, and relationships between tables. Each table is created t
+040	page=29	paras=3	2. ALUMINI
+041	page=30	paras=3	3. ALUMINI_MASTER
+042	page=31	paras=3	4. ALUMINI_PROFILE
+043	page=32	paras=3	5. ALUMINI_EDUCATION
+044	page=33	paras=3	6. ALUMINI_EXPERIENCE
+045	page=34	paras=3	7. ALUMINI_EVENTS
+046	page=35	paras=4	8. ALUMINI_SKILLS | 9. ALERTS
+047	page=36	paras=3	10. CHATBOT_MESSAGES
+048	page=37	paras=3	11. CONNECTIONS
+049	page=38	paras=3	12. CONTACT_MESSAGES
+050	page=39	paras=3	13. CONVERSATIONS
+051	page=40	paras=4	14. DEPARTMENT_MASTER | 15. DESIGNATION MASTER
+052	page=41	paras=3	16.FACULTY
+053	page=42	paras=3	17. FAC_LOGIN_MASTER
+054	page=43	paras=3	18. MESSAGES
+055	page=44	paras=3	19. NOTIFICATIONS
+056	page=45	paras=3	20. POSTS
+057	page=46	paras=4	21. PROGRAM MASTER | 22. PROGRAM_MASTER_DETAIL
+058	page=47	paras=3	23. STUDENT
+059	page=48	paras=3	24. STUDENT_ACTIVITIES
+060	page=49	paras=3	25. STUDENT_POSTS
+061	page=50	paras=4	26. USER_STATUS | 27. USER_LOGIN
+062	page=51	paras=3	28. USER_GROUP_MASTER
+063	page=?	paras=1	CHAPTER-6  / FUNCTIONAL AND NON-FUNCTIONAL REQUIREMENTS
+064	page=52	paras=10	6.1FUNCTIONAL REQUIREMENTS | In software engineering, functional requirements define the specific functions and operations that a system must perform. They describe the behaviour o
+065	page=53	paras=7	•	Availability:  / 	The system is available for use at all times, enabling users to access academic assistance 	whenever needed. | •	Security:  / 	The system ensures secure user au
+066	page=?	paras=1	CHAPTER-7  / IMPLEMENTATION AND TESTING
+067	page=54	paras=8	7.1 SYSTEM IMPLEMENTATION | System implementation is the process of converting the designed system into a fully functional and operational system. It involves deploying the develop
+068	page=55	paras=9	User Training  / After deployment, users are trained to effectively use the system: 	•	How to log in and access the platform  / 	•	How to enter and manage data  / 	•	How to use the
+069	page=56	paras=6	7.2.2 Unit Testing  / 	•	Definition: Testing individual modules or components separately 	•	In FLEXIBOT:  / 			oTesting login, registration, and CRUD operations  / 			oVerifying do
+070	page=57	paras=5	7.2.6 Output Testing  / 	•	Definition: Verifying correctness of system outputs  / 	•	In FLEXIBOT:  / 			oEnsuring chatbot responses are relevant and understandable 			oVerifying co
+071	page=58	paras=5	7.3 TEST CASES | 1. ADMIN
+072	page=59	paras=4	3. STUDENT | 4. ALUMINI
+073	page=60	paras=3	5. AI CHATBOT
+074	page=?	paras=1	CHAPTER-8  / RESULTS AND DISCUSSIONS
+075	page=61	paras=6	8.1 RESULTS  / 	The implementation of the FLEXIBOT system has successfully achieved its primary objective of providing an AI-powered academic assistant for students, faculty, and a
+076	page=62	paras=4	8.2 SCREENSHOTS | HOME PAGE
+077	page=63	paras=5	ADMIN LOGIN | ADMIN DASHBOARD
+078	page=64	paras=5	UPLOAD DOCUMENTS | VIEW FACULTY LIST
+079	page=65	paras=5	VIEW DEPARTMENT MASTER | VIEW PROGRAM MASTER
+080	page=66	paras=3	FACULTY REGISTRATION
+081	page=67	paras=5	FACULTY LOGIN | FACULTY DASHBOARD
+082	page=68	paras=4	VIEW STUDENT | VIEW STUDENT ACTIVITY
+083	page=69	paras=5	STUDENT DASHBOARD | CREATE POST
+084	page=70	paras=5	VIEW ACTIVITY | ADD NEW ACTIVITY
+085	page=71	paras=5	VIEW ALUMINI | VIEW CONNECTIONS
+086	page=72	paras=5	VIEW ALERTS | VIEW PROFILE
+087	page=73	paras=5	ALUMINI HOME PAGE | CREATE POSTS
+088	page=74	paras=4	VIEW CONNECTIONS | CHAT
+089	page=75	paras=4	VIEW STUDENTS | VIEW STUDENT PROFILE
+090	page=?	paras=1	CHAPTER-9  / CONCLUSION
+091	page=76	paras=10	9.1 SYSTEM MAINTENANCE  / After deployment, ongoing maintenance of the FLEXIBOT system is essential to ensure that it remains functional, accurate, and adaptable to changing requir
+092	page=77	paras=8	9.2 CONCLUSION | The development and implementation of FLEXIBOT demonstrate how Artificial Intelligence can be effectively utilized to transform traditional academic support system
+093	page=78	paras=8	9.3 FUTURE ENHANCEMENT | •Voice-based interaction:  / Integration of voice recognition and speech response features to enable hands-free interaction with the system, improving acce
+094	page=?	paras=1	CHAPTER-10  / BIBLIOGRAPHY
+095	page=79	paras=14	10.1 BOOKS | •Speech and Language Processing – Daniel Jurafsky and James H. Martin- A comprehensive book on Natural Language Processing, useful for understanding chatbot concepts a
+096	page=80	paras=13	•	MySQL  / 	 / 	Used for database management. | •	FAISS  / 	 / 	Used for efficient similarity search and vector retrieval.
+097	page=81	paras=7	[5] S. Ch., J. Ismail, V. Anil, Venkatesh, S. Rasheed, “AI Powered Academic Assistant Using Conversational AI,” IEEE, 2023. | [6] R. Llanos, G. M. Gonzales, J. Morzan, “Enhancing S
+098	page=?	paras=1	APPENDICES
+099	page=82	paras=4	LIST OF TABLES | 1. DB TABLES:
+100	page=83	paras=4	2. TEST-CASES | LIST OF FIGURES
+101	page=84	paras=3	GIT HISTORY

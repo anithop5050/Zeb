@@ -1,0 +1,92 @@
+
+=== IDX 76 (paras=4) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: 8.2 SCREENSHOTS
+P2: HOME PAGE
+P3: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  62
+
+=== IDX 77 (paras=5) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: ADMIN LOGIN
+P2: ADMIN DASHBOARD
+P3: ADD ALUMINI
+P4: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  63
+
+=== IDX 78 (paras=5) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: UPLOAD DOCUMENTS
+P2: VIEW FACULTY LIST
+P3: SEND ALERTS
+P4: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  64
+
+=== IDX 79 (paras=5) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: VIEW DEPARTMENT MASTER
+P2: VIEW PROGRAM MASTER
+P3: VIEW DESIGNATION MASTER
+P4: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  65
+
+=== IDX 80 (paras=3) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: FACULTY REGISTRATION
+P2: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  66
+
+=== IDX 81 (paras=5) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: FACULTY LOGIN
+P2: FACULTY DASHBOARD
+P3: ADD STUDENT
+P4: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  67
+
+=== IDX 82 (paras=4) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: VIEW STUDENT
+P2: VIEW STUDENT ACTIVITY
+P3: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  68
+
+=== IDX 83 (paras=5) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: STUDENT DASHBOARD
+P2: CREATE POST
+P3: VIEW POSTS
+P4: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  69
+
+=== IDX 84 (paras=5) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: VIEW ACTIVITY
+P2: ADD NEW ACTIVITY
+P3: VIEW JOBS
+P4: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  70
+
+=== IDX 85 (paras=5) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: VIEW ALUMINI
+P2: VIEW CONNECTIONS
+P3: CHAT
+P4: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  71
+
+=== IDX 86 (paras=5) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: VIEW ALERTS
+P2: VIEW PROFILE
+P3: CHATBOT
+P4: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  72
+
+=== IDX 87 (paras=5) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: ALUMINI HOME PAGE
+P2: CREATE POSTS
+P3: CREATE EVENT
+P4: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  73
+
+=== IDX 88 (paras=4) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: VIEW CONNECTIONS
+P2: CHAT
+P3: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  74
+
+=== IDX 89 (paras=4) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: VIEW STUDENTS
+P2: VIEW STUDENT PROFILE
+P3: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  75

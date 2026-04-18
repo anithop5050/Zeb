@@ -1,0 +1,617 @@
+
+=== IDX 0 (paras=4) ===
+P0: FLEXIBOT
+P1: AN AI POWERED ACADEMIC ASSISTANT
+P2: A Project Report  / Submitted By,  / SNEHA BABU G - LMC24MCA-2054  / in partial fulfilment of the requirements for the award of the degree in  / MASTER OF COMPUTER APPLICATIONS at
+P3: DEPARTMENT OF COMPUTER APPLICATIONS  / LOURDES MATHA COLLEGE OF SCIENCE AND TECHNOLOGY KUTTICHAL, THIRUVANATHAPURAM-695574  / (AFFILIATED TO APJ ABDUL KALAM TECHNOLOGICAL UNIVERSITY, KERALA) MARCH 2026
+
+=== IDX 1 (paras=8) ===
+P0: LOURDES MATHA COLLEGE OF SCIENCE AND TECHNOLOGY
+P1: KUTTICHAL, THIRUVANATHAPURAM-695574
+P2: (Affiliated To APJ Abdul Kalam Technological University, Kerala)
+P3: DEPARTMENT OF COMPUTER APPLICATIONS
+P4: CERTIFICATE
+P5: This is to certify that the project work entitled “FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT” is a Bonafide record of the work done by Ms. SNEHA BABU G, Reg No: LMC24MCA-2054, student of Department of Computer Applications, Lourdes Matha College Of Science And
+P6: Ms. SHERIN JOSEPH 	Date: 	 (Internal Guide)
+P7: Ms. BISMI K CHARLEYS  / (Head of the Department)
+
+=== IDX 2 (paras=3) ===
+P0: DECLARATION
+P1: I undersigned here by declared that the project report “FLEXIBOT – AN AI POWERED ACADEMIC ASSISTANT” submitted for partial fulfilment of the requirements for the award of degree of Master of Computer Applications of the APJ Abdul Kalam Technological University
+P2: Place: TRIVANDRUM 	SNEHA BABU G Date:
+
+=== IDX 3 (paras=7) ===
+P0: ACKNOWLEDGEMENT
+P1: An endeavour over a long time can be successful only with advice and support of many well-wishers. I wish to place on record my profound indebtedness and gratitude to all those who have contributed directly or indirectly to make this project work a success.
+P2: At the very onset, I express my gratitude to God Almighty who sheltered me under his protective wings and showered on innumerable blessings throughout the period of this Master of Computer Application.
+P3: It is a great pleasure to express my sincere gratitude to Rev. Dr. Bejoy Arackal, Director and Dr. Beshiba Wilson, Principal of Lourdes Matha College of Science and Technology for permitting to do this project with the fullest spirit.
+P4: I am highly obliged to Ms. Bismi K Charleys, Head of the Department of Computer Applications of Lourdes Matha College of Science and Technology, for being the source of inspiration throughout the course and for her valuable guidance.
+P5: With heart full of thanks, I would like to take up this opportunity to wish my Internal guide Ms. Sherin Joseph, Assistant Professor and all Staffs of Department of Computer Applications for their endless support, encouragements and suggestions in various stag
+P6: With immense love and gratitude, I thank every unknown number of numerous amounts of open- source communities for all the selfless works and contributions they’ve made. Without them and their help, I wouldn’t have made it here. Finally, I wish to express my si
+
+=== IDX 4 (paras=2) ===
+P0: CONTENTS
+P1: CONTENT 	Page No ABSTRACT 		1 CHAPTER 1  / 1.INTRODUCTION  / 	 1.1 GENERAL INTRODUCTION 		2 	 1.2 GOAL OF THE PROJECT 		3 CHAPTER 2  / 2. LITERATURE SURVEY  / 	 2.1 STUDY OF SIMILAR WORKS 		4 	 2.2 EXISTING SYSTEM 		7 	 2.3 DRAWBACKS OF EXISTING SYSTEM 		8 CHA
+
+=== IDX 5 (paras=31) ===
+P0: 4.3.6 NODE JS 17
+P1: 4.3.7 MYSQL 18
+P2: 4.3.8 LLAMA 3.3 18
+P3: 4.3.9 VISUAL STUDIO CODE 19
+P4: CHAPTER 5
+P5: 5. DESIGN
+P6: 5.1 SYSTEM DESIGN 20
+P7: 5.2 WORKFLOWDIAGRAM 21
+P8: 5.3 USECASE DIAGRAM 22
+P9: 5.3.1 ADMIN AND FACULTY 22
+P10: 5.3.2 STUDENT AND ALUMINI 23
+P11: 5.4 INPUT DESIGN 24
+P12: 5.5 OUTPUT DESIGN 25
+P13: 5.6 PROGRAM DESIGN 26
+P14: 5.7 DATABASE DESIGN 27
+P15: 5.8 TABLE DESIGN 28
+P16: CHAPTER 6
+P17: 6. FUNCTIONAL AND NON-FUNCTIONAL REQUIREMENTS
+P18: 6.1 FUNCTIONAL REQUIREMENTS 52
+P19: 6.2 NON-FUNCTIONAL REQUIREMENTS 52
+P20: CHAPTER 7
+P21: 7. IMPLEMENTATION AND TESTING
+P22: 7.1 SYSTEM IMPLEMENTATION 54
+P23: 7.2 TESTING 55
+P24: 7.2.1 SYSTEM TESTING 55
+P25: 7.2.2 UNIT TESTING 56
+P26: 7.2.3 INTEGRATION TESTING  56
+P27: 7.2.4 BLACK BOX TESTING 56
+P28: 7.2.5 VALIDATION TESTING 56
+P29: 7.2.6 OUTPUT TESTING 57
+P30: 7.2.7 USER ACCEPTANCE TESTING 57
+
+=== IDX 6 (paras=20) ===
+P0: 7.2.8 WHITEBOX TESTING 57
+P1: 7.3 TEST CASES 58
+P2: CHAPTER 8
+P3: 8. RESULTS AND DISCUSSIONS
+P4: 8.1 RESULTS 61
+P5: 8.2 SCREENSHOTS  62
+P6: CHAPTER 9
+P7: 9. CONCLUSION
+P8: 9.1 SYSTEM MAINTENANCE 76
+P9: 9.2 CONCLUSION 77
+P10: 9.3 FUTURE ENHANCEMENT 78
+P11: CHAPTER 10
+P12: 10. BIBLIOGRAPHY
+P13: 10.1 BOOKS 79
+P14: 10.2 WEBSITES 79
+P15: 10.3 JOURNALS 80
+P16: APPENDICES
+P17: 1. LIST OF TABLES 82
+P18: 2. LIST OF FIGURES 83
+P19: GIT HISTORY 84
+
+=== IDX 7 (paras=4) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: ABSTRACT
+P2: Academic institutions generate large volumes of academic information such as syllabus, regulations, timetables, circulars, and examination details. However, accessing this information through existing systems is difficult, as it requires manual searching acros
+P3: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  1
+
+=== IDX 8 (paras=1) ===
+P0: CHAPTER-1  / INTRODUCTION
+
+=== IDX 9 (paras=8) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: 1.1 GENERAL INTRODUCTION
+P2: The rapid advancement of Artificial Intelligence (AI) has significantly transformed various sectors, including education. Modern educational institutions increasingly rely on digital platforms to manage academic activities, student records, communication, and 
+P3: In today’s academic environment, students require instant access to accurate academic information, study materials, event updates, and career opportunities. At the same time, institutions need an integrated system that connects students, faculty, administrator
+P4: To address these challenges, FLEXIBOT – AI Powered Academic Assistant System is proposed. FLEXIBOT is an integrated academic support platform designed specifically for institutional environments. It combines role-based academic management with an AI-driven cha
+P5: The core component of FLEXIBOT is its AI-powered chatbot module, which provides context-aware, document-grounded responses to student queries. In addition to academic assistance, the system also facilitates alumni networking, job opportunity sharing, activity 
+P6: By integrating intelligent automation with academic management features, FLEXIBOT aims to enhance institutional efficiency, improve student support services, and strengthen the connection between current students and alumni. The system represents a step toward
+P7: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  2
+
+=== IDX 10 (paras=8) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: 1.2 GOAL OF THE PROJECT
+P2: The primary goal of the project FLEXIBOT – AI Powered Academic Assistant System is to design and develop an intelligent, centralized academic platform that integrates institutional management with AI-driven academic assistance.
+P3: The project aims to provide a unified digital ecosystem that connects administrators, faculty, students, and alumni within a single secure platform. Unlike traditional content management systems that focus only on attendance and marks, FLEXIBOT extends functio
+P4: The key goals of the project are:
+P5: •To develop a role-based academic management system for Admin, Faculty, Students, 	and Alumni  / •To implement a document-grounded AI chatbot for accurate academic query resolution •To enable alumni networking and job opportunity sharing  / •To provide central
+P6: Overall, the project seeks to modernize institutional operations by combining artificial intelligence with academic administration, thereby improving efficiency, accessibility, and interaction within the educational environment.
+P7: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  3
+
+=== IDX 11 (paras=1) ===
+P0: CHAPTER-2  / LITERATURE SURVEY
+
+=== IDX 12 (paras=7) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: 2.1 STUDY OF SIMILAR WORKS
+P2: 1. AI Chatbot for Educational Institution: A Case Study (IEEE, 2025)  / 	This paper presents the development of an AI chatbot designed to assist users in educational institutions by providing quick access to academic information. The system focuses on automati
+P3: Key Points:  / 	•Implements an AI chatbot for academic query handling  / 	•Provides automated responses to user queries  / 	•Enhances accessibility to institutional information  / However, the system mainly focuses on chatbot functionality and does not provide
+P4: 2. AI-Driven Alumni Networking Platform (IEEE, 2024)  / 	This work investigates the use of artificial intelligence to facilitate networking between alumni and students. The system emphasizes career readiness, job opportunity sharing, and student–alumni engagem
+P5: Key Points:  / 	•Employs AI-based networking and recommendation algorithms  / 	•Targets alumni engagement and career support  / 	•Improves interaction between former students and current students  / Although this research advances alumni networking with AI, it
+P6: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  4
+
+=== IDX 13 (paras=12) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: 3. AI Powered Academic Assistant Using Conversational AI (IEEE, 2023)
+P2: This research explores the development of an AI-based academic assistant that uses conversational artificial intelligence techniques to handle academic queries. The system leverages Natural Language Processing (NLP), dialogue management, and machine learning a
+P3: Key Points:
+P4: •Implements conversational AI for answering academic questions  / •Uses NLP and Machine Learning for query understanding  / •Focuses on dialogue management rather than structured institutional data
+P5: The study demonstrates the effectiveness of AI in student support but lacks advanced document retrieval mechanisms and multi-user institutional integration.
+P6: 4. Enhancing Student Success through AI Virtual Assistant (IEEE, 2023)
+P7: This study presents the design and implementation of a virtual assistant aimed at improving student success in higher education institutions. The system focuses on providing support for academic inquiries and guiding students through administrative and academi
+P8: Key Points:
+P9: •Implements an AI virtual assistant to support students •Includes analytics to measure engagement and effectiveness •Focuses on student interaction and success outcomes
+P10: While this work highlights the importance of AI virtual assistance in education, it does not combine multi-role institutional management, document-grounded responses, or alumni integration.
+P11: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  5
+
+=== IDX 14 (paras=12) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: 5. Intelligent Document Retrieval and QA System in Education (IEEE, 2022)
+P2: This study focuses on the design of an intelligent document retrieval system that uses semantic search and vector space models to support question-answering. The system applies text embeddings and similarity search to retrieve relevant academic information fro
+P3: Key Points:
+P4: •Uses semantic search and embedding models for query matching •Applies intelligent retrieval to educational content  / •Enhances accuracy of information access
+P5: However, this work does not integrate user role management or institutional ecosystem features. The proposed system retrieves relevant content but is limited in scope to document retrieval only.
+P6: 6. Machine Learning-Based Student Academic Support System (IEEE, 2021)
+P7: This paper proposes a machine learning-based system for academic support that uses predictive models to analyse student performance and provide guidance. It integrates AI models to recommend personalized academic resources and suggestions based on student beha
+P8: Key Points:
+P9: •Implements predictive analytics to support student academic decisions •Uses historical performance data to provide personalized recommendations •Integrates AI models with student support services
+P10: The system does not provide an AI conversational assistant or document-grounded query responses, and it focuses mainly on student analytics rather than institutional query assistance.
+P11: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  6
+
+=== IDX 15 (paras=6) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: 2.2 EXISTING SYSTEM
+P2: The existing systems used in educational institutions mainly depend on traditional methods such as official websites, notice boards, emails, and document repositories to provide academic information. Students, faculty, and other users often need to manually se
+P3: Additionally, several systems focus on specific functionalities such as alumni networking, student performance analysis, or academic recommendations. While these systems are helpful in their respective areas, they operate independently and do not offer a compl
+P4: Furthermore, the absence of a centralized system results in duplication of information, difficulty in maintaining consistency, and increased effort in managing academic data. Users may also face confusion due to outdated or scattered information across differe
+P5: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  7
+
+=== IDX 16 (paras=10) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: 2.3 DRAWBACKS OF EXISTING SYSTEM
+P2: 1. Time-Consuming Information Retrieval  / Users have to manually search through multiple sources such as websites, documents, and notice boards, making the process slow and inefficient.
+P3: 2. Lack of Centralized Platform  / Academic information is scattered across different systems, so users cannot access everything from a single place.
+P4: 3. Limited Accessibility and Convenience  / Users may find it difficult to quickly access required information due to the absence of a unified interface.
+P5: 4. Limited Accuracy in Existing Chatbots  / Most chatbots provide only predefined or generic responses and lack proper understanding of user queries.
+P6: 5.Lack of Document-Grounded Responses  / Systems fail to provide answers directly based on official institutional documents, reducing reliability.
+P7: 6. Fragmented Information Sources  / Academic information is distributed across multiple platforms such as websites, documents, and notices, making it difficult to access in a unified manner.
+P8: 7. Absence of Integrated Platform  / There is no single system that combines academic assistance, user management, and alumni interaction.
+P9: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  8
+
+=== IDX 17 (paras=1) ===
+P0: CHAPTER-3  / OVERALL DESCRIPTION
+
+=== IDX 18 (paras=10) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: 3.1 PROPOSED SYSTEM
+P2: The proposed system, FLEXIBOT, is an AI-Powered Academic Assistant designed to provide a centralized platform for managing and accessing academic information within an educational institution. The system aims to simplify the process of retrieving academic deta
+P3: The system is capable of understanding user queries and providing accurate responses based on official institutional documents. This ensures that the information delivered is reliable and relevant. Academic data such as syllabus, circulars, regulations, and ex
+P4: In addition, the system supports interaction among different users, making it not just an academic assistant but a complete academic support ecosystem. Overall, FLEXIBOT provides a centralized, efficient, and intelligent solution for academic information manag
+P5: 3.2 FEATURES OF PROPOSED SYSTEM
+P6: •Centralized Academic Platform  / Provides a single platform to access all academic information, eliminating the need to search across multiple sources.
+P7: •AI-Powered Academic Assistant  / Enables users to ask queries in a simple manner and receive quick and relevant responses.
+P8: •Document-Based Information Access  / Ensures that responses are based on official academic documents, improving reliability and accuracy.
+P9: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  9
+
+=== IDX 19 (paras=14) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: •Multi-User System  / Supports different users including Admin, Faculty, Student, and Alumni within the same system.
+P2: •Easy Information Retrieval  / Allows users to quickly obtain details such as syllabus, timetables, and circulars without manual searching.
+P3: •User-Friendly Interface  / 	Designed to be simple and easy to use, making it accessible for all types of users.
+P4: •Efficient Data Management  / 	Enables proper storage and organization of academic data in a structured manner.
+P5: •Improved Communication  / 	Facilitates better interaction between different users within the institution.
+P6: •Reduced Manual Effort  / 	Minimizes the need for manual searching and handling of academic information.
+P7: •Scalable System  / 	Capable of handling increasing amounts of academic data as the institution grows.
+P8: 3.3 FUNCTIONS OF PROPOSED SYSTEM
+P9: •User Authentication and Access Control  / The system allows different users to securely log in and access features based on their roles.
+P10: •Query Processing and Response Generation  / 	Accepts user queries and provides relevant responses in a quick and efficient manner.
+P11: •Academic Information Retrieval  / Retrieves important academic details such as syllabus, timetables, and circulars from stored data.
+P12: •Document Management  / 	Enables storing, updating, and organizing academic documents within the system.
+P13: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  10
+
+=== IDX 20 (paras=11) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: •Centralized Data Handling  / Maintains all academic information in a single system for easy access and management.
+P2: •User Interaction Management  / 	Facilitates smooth interaction between users through a common platform.
+P3: •Information Update and Maintenance  / 	Allows regular updating of academic data to ensure accuracy and consistency.
+P4: •Search Functionality  / 	Provides an easy way for users to search and access required information quickly.
+P5: •System Monitoring and Control  / 	Ensures proper functioning of the system and manages user activities effectively.
+P6: •Data Organization and Storage  / 	Organizes academic data in a structured format for efficient retrieval and usage.
+P7: 3.4 REQUIREMENTS SPECIFICATION
+P8: System Analysis is the process of studying a system in order to understand its structure, functionality, and user requirements. It helps in identifying the needs of users and ensures that the developed system provides an effective and efficient solution. Requi
+P9: In the context of the proposed system, FLEXIBOT, the requirement specification focuses on identifying the needs of different users such as Admin, Faculty, Students, and Alumni, and translating them into a structured form. It defines the services provided by th
+P10: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  11
+
+=== IDX 21 (paras=13) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: The requirement specification for the proposed system is as follows:
+P2: •User Authentication and Access Control  / The system should provide a secure login mechanism for all users and ensure that access to features is based on user roles.
+P3: •AI-Based Query Handling  / The system should accept user queries and provide relevant responses in a simple and efficient manner.
+P4: •Academic Information Retrieval  / The system should allow users to access academic details such as syllabus, timetables, circulars, and examination information.
+P5: •Document Management  / The system should support uploading, storing, and managing academic documents in an organized way.
+P6: •Centralized Platform  / The system should provide a single platform where all academic information and services are available.
+P7: •Multi-User Support  / The system should support different users including Admin, Faculty, Student, and Alumni within the same environment.
+P8: •Easy Search and Navigation  / 	The system should enable users to quickly find required information without difficulty.
+P9: •User-Friendly Interface  / The system should have a simple and easy-to-use interface suitable for all types of users.
+P10: 3.5 FEASIBILITY ANALYSIS
+P11: Feasibility study evaluates the proposed system’s workability, its impact on the organization, its ability to meet user requirements, and the effective use of available resources. Before the development of any system, it is essential to conduct a feasibility s
+P12: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  12
+
+=== IDX 22 (paras=12) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: and resources. This study helps in identifying potential risks and ensures that the system can be successfully implemented in a real-world environment.
+P2: In the case of FLEXIBOT, the feasibility study focuses on analysing whether the system can provide an efficient academic support platform for users such as Admin, Faculty, Students, and Alumni. It also ensures that the system can be developed using available t
+P3: 3.5.1 TECHNICAL FEASIBILITY
+P4: Technical feasibility focuses on evaluating whether the required technology and resources are available to develop the proposed system. The system is designed using commonly available tools and technologies, which makes its implementation feasible without requ
+P5: The development of FLEXIBOT involves selecting appropriate front-end and back-end technologies that support efficient data handling and user interaction. The system can be implemented using standard computing devices and does not require high-end hardware. Hen
+P6: 3.5.2 OPERATIONAL FEASIBILITY
+P7: Operational feasibility determines how well the proposed system can be used within the organization. The system is designed with a user-friendly interface that allows users to easily interact with it without requiring extensive training.
+P8: FLEXIBOT simplifies the process of accessing academic information and reduces the need for manual searching. The system ensures smooth interaction for all users and improves overall efficiency. It requires minimal human effort for operation and maintenance, ma
+P9: 3.5.3 ECONOMIC FEASIBILITY
+P10: Economic feasibility evaluates the cost-effectiveness of the proposed system by comparing the expected benefits with the development and maintenance costs. The development of FLEXIBOT does not involve high expenses, as it utilizes available resources and stand
+P11: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  13
+
+=== IDX 23 (paras=6) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: The benefits provided by the system, such as time-saving, improved efficiency, and better information management, outweigh the costs involved. Therefore, the system is considered economically feasible.
+P2: 3.5.4 BEHAVIORAL FEASIBILITY
+P3: Behavioural feasibility analyses how users will accept and adapt to the proposed system. FLEXIBOT is designed to provide a simple and convenient way of accessing academic information, making it highly acceptable to users.
+P4: Users are more likely to adopt the system due to its ease of use and ability to provide quick and accurate information. The system improves user experience by reducing complexity and enhancing interaction. Hence, it is expected to be positively received by all
+P5: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  14
+
+=== IDX 24 (paras=1) ===
+P0: CHAPTER-4  / OPERATING ENVIRONMENT
+
+=== IDX 25 (paras=26) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: 4.1 HARDWARE REQUIREMENTS
+P2: The system is designed to function on standard computing environments without requiring
+P3: high-end specifications. The following hardware requirements ensure smooth development and
+P4: testing:
+P5: •Processor 	: Intel Core i3 or higher
+P6: •RAM 	: 4 GB minimum
+P7: •Storage 	: 128 GB SSD or 500 GB HDD
+P8: •Display 	: 1280×720 resolution or higher
+P9: 4.2 SOFTWARE REQUIREMENTS
+P10: The software stack used in this project includes:
+P11: •Operating System 	: Windows 11
+P12: •Frontend 	: React.js, Bootstrap, Tailwind CSS
+P13: •Backend 	: Python (Flask), Node.js
+P14: •Database 	: MySQL
+P15: •LLM 	: LLaMA 3.3 – 70B Versatile
+P16: •Code Editor/IDE 	: Visual Studio Code
+P17: 4.3 TOOLS AND PLATFORM
+P18: 4.3.1 React.js
+P19: React.js is a powerful and widely used JavaScript library for building modern, dynamic,
+P20: and interactive user interfaces, especially for single-page applications. Developed and
+P21: maintained by Facebook, React follows a component-based architecture, which allows
+P22: developers to create reusable, modular UI components, improving code readability, scalability,
+P23: and maintainability. One of its key features is the virtual DOM, which optimizes rendering
+P24: performance by updating only the necessary parts of the user interface instead of reloading the
+P25: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  15
+
+=== IDX 26 (paras=7) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: entire page. React also supports unidirectional data flow, making application behaviour more predictable and easier to debug. Additionally, it integrates easily with other libraries and frameworks, enabling the development of complex and feature-rich applicati
+P2: 4.3.2 BOOTSTRAP
+P3: Bootstrap is a widely used open-source front-end framework designed for developing responsive and mobile-first web applications. It provides a comprehensive collection of pre-designed UI components such as buttons, forms, navigation bars, modals, alerts, and c
+P4: 4.3.3 TAILWIND CSS
+P5: Tailwind CSS is a modern utility-first CSS framework used for designing custom and responsive user interfaces efficiently. Unlike traditional CSS frameworks, Tailwind provides low-level utility classes that allow developers to style elements directly within th
+P6: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  16
+
+=== IDX 27 (paras=8) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: 4.3.4 PYTHON
+P2: Python is a high-level, interpreted, and general-purpose programming language known for its simplicity, readability, and ease of use. It supports multiple programming paradigms, including object-oriented, procedural, and functional programming, making it highl
+P3: 4.3.5 FLASK
+P4: Flask is a lightweight and extensible web framework developed in Python, widely used for building web applications and RESTful APIs. It follows a micro-framework architecture, providing only the core functionalities required for web development while allowing 
+P5: 4.3.6 Node.Js
+P6: Node.js is a powerful, open-source, and cross-platform server-side runtime environment that enables the execution of JavaScript code outside the browser. It is built on Google Chrome’s V8 JavaScript engine, which compiles JavaScript into machine code for faste
+P7: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  17
+
+=== IDX 28 (paras=7) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: handle multiple client requests simultaneously without waiting for previous operations to complete. This makes it highly efficient and suitable for building scalable and high-performance applications, especially real-time systems. It provides a rich ecosystem 
+P2: 4.3.7 MySQL
+P3: MySQL is a widely used open-source relational database management system (RDBMS) designed for efficient storage, management, and retrieval of structured data. It uses Structured Query Language (SQL) to perform various database operations such as creating table
+P4: 4.3.8 LLaMA 3.3 – 70B Versatile
+P5: LLaMA 3.3 – 70B Versatile (Large Language Model Meta AI) is a state-of-the-art large language model utilized in this project to generate accurate, context-aware, and human-like responses. Built on the transformer architecture, the model is trained on vast and 
+P6: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  18
+
+=== IDX 29 (paras=5) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: contextual understanding, and high-quality response generation, making it highly suitable for advanced conversational AI applications. The “Versatile” variant is specifically optimized to handle a wide range of tasks across multiple domains, ensuring flexibili
+P2: 4.3.9 VISUAL STUDIO CODE
+P3: Visual Studio Code (VS Code) is a lightweight yet powerful source code editor developed by Microsoft, widely used for software development across various programming languages. It provides a user-friendly interface along with a rich set of features such as syn
+P4: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  19
+
+=== IDX 30 (paras=1) ===
+P0: CHAPTER-5  / DESIGN
+
+=== IDX 31 (paras=11) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: 5.1 SYSTEM DESIGN
+P2: System Design involves translating system requirements and conceptual design into technical specifications and general flow of processing. After the system requirements have been identified, information has been gathered to verify the problem and after evaluat
+P3: System Design is the process of planning of new system or to replace or complement an existing system. It must be thoroughly understood about the old system and determine how computers can be used to make its operations more effective. System design sits at te
+P4: System design is the most creative and challenging phase  s of the system life cycle. The term design describes the final system and the process by which it is to be developed.
+P5: System design is the high-level strategy for solving the problem and building a solution. System design includes decisions about the organization of the system into subsystems, the allocation of subsystems to hardware and software components and major conceptu
+P6: There are two levels of system design:  / 	•Logical design.
+P7: •Physical design.
+P8: In the logical design, the designer produces a specification of the major features of the system which meets the objectives. The delivered product of logical design includes current requirements of the following system components:  / 	•Input design.
+P9: •Output design
+P10: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  20
+
+=== IDX 32 (paras=4) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: 5.2 WORKFLOW DIAGRAM
+P2: Figure A
+P3: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  21
+
+=== IDX 33 (paras=5) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: 5.3 USE CASE DIAGRAM
+P2: 5.3.1 ADMIN AND FACULTY
+P3: Figure B
+P4: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  22
+
+=== IDX 34 (paras=4) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: 5.3.3 STUDENT AND ALUMINI
+P2: Figure C
+P3: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  23
+
+=== IDX 35 (paras=6) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: 5.4 INPUT DESIGN
+P2: Input design is the process of converting user-oriented inputs into a computer-based format for efficient processing. The primary objective of input design is to ensure that data entry is simple, accurate, and error-free. Key requirements such as user-friendli
+P3: While designing input, the following aspects are considered:  / 	•	What data needs to be input  / 	•	The medium used for input  / 	•	How the data should be arranged and formatted  / 	• / 	Providing proper guidance to users during input 	•	Validation of data to
+P4: Validation mechanisms are implemented to ensure data accuracy by checking for missing, incorrect, or inconsistent values. Only valid data is processed by the system, reducing errors in data handling. Proper arrangement of messages, headings, and input fields e
+P5: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  24
+
+=== IDX 36 (paras=9) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: 5.5 OUTPUT DESIGN
+P2: Output design refers to the process of presenting the results and information generated by the system in a clear, meaningful, and user-friendly format. The main objective is to ensure that the output is accurate, well-structured, and easily understandable by u
+P3: While designing the output, the following aspects are considered:  / 	•	Determining the type of information to be presented  / 	•	Selecting the appropriate output medium (web interface or email)  / 	•	Organizing the information in a clear and structured format
+P4: Output Design Breakdown  / 	1.Chatbot and Information Display:  / 		The system generates accurate, context-aware responses to user queries based on 		institutional documents such as syllabus, circulars, and regulations. The information is 		displayed through a
+P5: 2.User Data and Dashboard Display:  / The system presents various types of information such as student activity points, academic events, job opportunities, and user profiles through organized dashboards and web pages. This allows users to easily view and manag
+P6: 3.Notifications and Alerts:  / Important updates such as approvals, announcements, and system alerts are provided through on-screen notifications and email messages, ensuring timely communication with users.
+P7: The output interface is designed with proper formatting, headings, and layout to enhance readability and usability. Efficient output design ensures that users can easily interpret the information provided by the system.
+P8: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  25
+
+=== IDX 37 (paras=30) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: 5.6 PROGRAM DESIGN
+P2: Module Breakdown:
+P3: 1. ADMIN MODULE
+P4: •	Manages overall system operations and controls platform functionality
+P5: •	Performs CRUD (Create, Read, Update, Delete) operations on alumni data
+P6: •	Manages all users including Students, Faculty, and Alumni
+P7: •	Approves or rejects faculty registration requests
+P8: •	Provides initial login credentials to users via email
+P9: •	Uploads and manages academic documents such as syllabus, circulars, and regulations
+P10: •	Monitors chatbot queries and system activity logs
+P11: •	Sends important alerts and notifications to users
+P12: •	Ensures data accuracy, security, and proper system maintenance
+P13: 2. FACULTY MODULE
+P14: •	Performs CRUD (Create, Read, Update, Delete) operations on student data
+P15: •	Posts academic event details for students
+P16: •	Uploads study materials for academic reference
+P17: •	Views alumni information for academic and career-related insights
+P18: •	Adds and manages student activity points
+P19: •	Monitors student participation in academic and co-curricular activities
+P20: •	Ensures proper management and updating of student-related academic data
+P21: 3. STUDENT MODULE
+P22: •	Asks academic queries through the AI-powered chatbot
+P23: •	Receives alerts and notifications
+P24: •	Communicates with alumni through chat
+P25: •	Posts academic and co-curricular activities
+P26: •	Views job opportunities posted by alumni
+P27: •	Tracks and views earned activity points
+P28: •	Accesses academic information quickly without manual searching
+P29: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  26
+
+=== IDX 38 (paras=7) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: 4. ALUMINI MODULE  / 	•	Posts job opportunities for students  / 	•	Views student profiles for recruitment and interaction 	•	Communicates with students through chat  / 	• / 	Shares career-related information and opportunities 	•	Supports student engagement and
+P2: 5. AI CHATBOT MODULE  / 	•	Receives user queries in natural language  / 	•	Processes queries using AI and NLP techniques  / 	•	Retrieves relevant information from academic documents 	• / 	Generates accurate and context-aware responses 	•	Displays responses thr
+P3: 5.7 DATABASE DESIGN
+P4: Database design is the process of organizing and structuring data in a systematic way to ensure efficient storage, retrieval, and management of information. It involves defining tables, attributes, and relationships between data elements to maintain consistenc
+P5: In the FLEXIBOT system, MySQL is used as the relational database management system to store and manage data. The database is designed to handle information related to users, academic records, chatbot interactions, and system activities. Data is organized into 
+P6: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  27
+
+=== IDX 39 (paras=5) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: 5.8 TABLE DESIGN
+P2: Table design is the process of defining the structure of database tables, including fields, data types, and relationships between tables. Each table is created to store specific types of data in an organized manner. Proper table design ensures data consistency
+P3: 1. ADMIN_USERS
+P4: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  28
+
+=== IDX 63 (paras=1) ===
+P0: CHAPTER-6  / FUNCTIONAL AND NON-FUNCTIONAL REQUIREMENTS
+
+=== IDX 64 (paras=10) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: 6.1FUNCTIONAL REQUIREMENTS
+P2: In software engineering, functional requirements define the specific functions and operations that a system must perform. They describe the behaviour of the system in terms of inputs, processing, and outputs. These requirements include data processing, user in
+P3: In the FLEXIBOT system, the functional requirements include managing different user roles such as Admin, Faculty, Student, and Alumni, handling user queries through the AI-powered chatbot, uploading and retrieving academic documents, and facilitating communica
+P4: 6.2 NON-FUNCTIONAL REQUIREMENTS
+P5: Non-functional requirements specify the criteria used to evaluate the performance and quality of a system rather than its specific functionalities. These requirements define how the system operates and ensure its efficiency, usability, and reliability.
+P6: Some of the non-functional requirements of the FLEXIBOT system are:  / 	•	Usability:  / 		The system provides a clean and user-friendly web interface with clear navigation, 		simple forms, and helpful messages. It is designed to be easy to use for students, fa
+P7: •	Performance:  / 	The system responds quickly to user queries, especially in generating chatbot responses 	and retrieving document-based information, ensuring minimal delay.
+P8: •	Reliability:  / 	The system is designed to operate consistently without failures, ensuring accurate 	response generation and proper functioning over time.
+P9: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  52
+
+=== IDX 65 (paras=7) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: •	Availability:  / 	The system is available for use at all times, enabling users to access academic assistance 	whenever needed.
+P2: •	Security:  / 	The system ensures secure user authentication and protects sensitive data through 	proper access control and validation mechanisms.
+P3: •	Scalability:  / 	The system is capable of handling multiple users simultaneously and can be expanded 	to accommodate future growth.
+P4: •	Portability:  / 	Being a web-based application, the system can be accessed across different devices and 	platforms through a web browser.
+P5: •	Maintainability:  / 	The system is designed in a modular way, making it easy to update, modify, and 	maintain.
+P6: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  53
+
+=== IDX 66 (paras=1) ===
+P0: CHAPTER-7  / IMPLEMENTATION AND TESTING
+
+=== IDX 67 (paras=8) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: 7.1 SYSTEM IMPLEMENTATION
+P2: System implementation is the process of converting the designed system into a fully functional and operational system. It involves deploying the developed application, testing its components, and ensuring that it works efficiently in a real-world environment. 
+P3: For the FLEXIBOT system, implementation focuses on integrating all modules such as Admin, Faculty, Student, Alumni, and the AI chatbot into a unified platform.
+P4: Types of Implementations  / The FLEXIBOT system follows:  / 	•	Implementation of a new computerized system:  / 		The system replaces manual academic assistance methods such as searching through 		physical documents and notices.
+P5: •	Implementation of a new system over an existing system:  / 	FLEXIBOT enhances the traditional information systems by introducing AI-based 	academic support and centralized access.
+P6: Implementation Plan  / The implementation plan defines the steps required to successfully deploy the system. It includes:  / 	•	Identifying system objectives and expected outcomes  / 	•	Allocating required resources (hardware, software, APIs)  / 	• / 	Assignin
+P7: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  54
+
+=== IDX 68 (paras=9) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: User Training  / After deployment, users are trained to effectively use the system: 	•	How to log in and access the platform  / 	•	How to enter and manage data  / 	•	How to use the AI chatbot for academic queries  / 	•	How to upload documents and manage users 
+P2: Implementation of FLEXIBOT System  / Once the system is tested and approved, it is deployed for real-time use. All modules are activated, and users can interact with the system through a web interface. The chatbot begins responding to queries based on institut
+P3: 7.2 SYSTEM TESTING
+P4: System testing is the process of evaluating the complete system to ensure that it meets the specified requirements and functions correctly. It involves testing all modules of the system including the frontend, backend, database, and AI chatbot to ensure proper
+P5: In the FLEXIBOT system, testing ensures accurate response generation, smooth user interaction, and reliable data management.
+P6: 7.2.1 System Testing  / 	•	Definition: Testing the entire system as a whole.
+P7: •	In FLEXIBOT:  / 		oTesting the complete workflow from user query input to chatbot response 			generation  / 		oVerifying interaction between frontend, backend, database, and AI modules 		oEnsuring all user roles (Admin, Faculty, Student, Alumni) function cor
+P8: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  55
+
+=== IDX 69 (paras=6) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: 7.2.2 Unit Testing  / 	•	Definition: Testing individual modules or components separately 	•	In FLEXIBOT:  / 			oTesting login, registration, and CRUD operations  / 			oVerifying document upload functionality  / 			oTesting chatbot response generation for speci
+P2: 7.2.3 Integration Testing  / 	•	Definition: Testing interaction between combined modules  / 	•	In FLEXIBOT:  / 			oEnsuring chatbot properly retrieves data from uploaded documents 			oValidating interaction between backend APIs and frontend interface 			oCheck
+P3: 7.2.4 Black Box Testing  / 	•	Definition: Testing system functionality without knowing internal code 	•	In FLEXIBOT:  / 			oProviding user queries and verifying correct responses  / 			oTesting login and user actions based on expected outputs 			oFocus on inpu
+P4: 7.2.5 Validation Testing  / 	•	Definition: Ensures system meets user requirements  / 	•	In FLEXIBOT:  / 			oChecking if chatbot provides accurate academic information 			oEnsuring system fulfills all module functionalities  / 			oVerifying system meets project
+P5: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  56
+
+=== IDX 70 (paras=5) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: 7.2.6 Output Testing  / 	•	Definition: Verifying correctness of system outputs  / 	•	In FLEXIBOT:  / 			oEnsuring chatbot responses are relevant and understandable 			oVerifying correct display of academic data and documents 			oChecking notification and alert
+P2: 7.2.7 User Acceptance Testing (UAT)  / 	•	Definition: Testing performed by end users  / 	•	In FLEXIBOT:  / 			oUsers (students, faculty, alumni) test the system 			oFeedback collected on usability and performance 			oEnsuring system meets real user expectation
+P3: 7.2.8 White Box Testing  / 	•	Definition: Testing internal logic and code structure  / 	•	In FLEXIBOT:  / 			oTesting backend logic, APIs, and database queries  / 			oVerifying AI processing pipeline (query → embedding → retrieval → response) 			oHandling edge
+P4: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  57
+
+=== IDX 71 (paras=5) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: 7.3 TEST CASES
+P2: 1. ADMIN
+P3: 2. FACULTY
+P4: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  58
+
+=== IDX 72 (paras=4) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: 3. STUDENT
+P2: 4. ALUMINI
+P3: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  59
+
+=== IDX 73 (paras=3) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: 5. AI CHATBOT
+P2: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  60
+
+=== IDX 74 (paras=1) ===
+P0: CHAPTER-8  / RESULTS AND DISCUSSIONS
+
+=== IDX 75 (paras=6) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: 8.1 RESULTS  / 	The implementation of the FLEXIBOT system has successfully achieved its primary objective of providing an AI-powered academic assistant for students, faculty, and alumni within a centralized platform. The system effectively delivers accurate, d
+P2: The AI chatbot module demonstrated strong performance by retrieving relevant information from institutional documents such as syllabus, circulars, and regulations, and generating context-aware responses. Users were able to obtain academic information quickly w
+P3: Key Achievements:  / • The AI chatbot provided accurate and relevant responses based on institutional documents • Efficient document retrieval using semantic search techniques  / • Successful integration of multiple user roles within a single platform  / • Smo
+P4: The results demonstrate that FLEXIBOT is a reliable and efficient academic assistant system. It enhances access to academic information, reduces manual effort, and improves overall user experience within the institution.
+P5: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  61
+
+=== IDX 90 (paras=1) ===
+P0: CHAPTER-9  / CONCLUSION
+
+=== IDX 91 (paras=10) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: 9.1 SYSTEM MAINTENANCE  / After deployment, ongoing maintenance of the FLEXIBOT system is essential to ensure that it remains functional, accurate, and adaptable to changing requirements. Maintenance activities are categorized as follows:  / 1. Corrective Main
+P2: Examples include:  / • Correcting errors in document processing and parsing • Resolving issues in query handling and response generation • Fixing bugs in the chatbot interface and user modules
+P3: 2. Adaptive Maintenance  / This focuses on updating the system to adapt to changes in the technical environment.
+P4: Examples include:  / • Updating NLP libraries, embedding models, and APIs  / • Adapting to changes in institutional document formats  / • Ensuring compatibility with updated software and hosting platforms
+P5: 3. Perfective Maintenance  / This involves enhancing system performance and adding new features based on user feedback.
+P6: Examples include:  / • Improving semantic search for faster and more accurate responses • Enhancing clarity and readability of chatbot responses  / • Adding new features such as advanced search and improved chat history
+P7: 4. Preventive Maintenance  / This focuses on improving system reliability and preventing future issues.
+P8: Examples include:  / • Conducting regular system audits for performance and security • Updating system documentation for better maintainability • Optimizing system structure for scalability
+P9: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  76
+
+=== IDX 92 (paras=8) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: 9.2 CONCLUSION
+P2: The development and implementation of FLEXIBOT demonstrate how Artificial Intelligence can be effectively utilized to transform traditional academic support systems into a modern, intelligent, and user-friendly platform. The system successfully integrates an A
+P3: FLEXIBOT goes beyond a conventional chatbot by offering a complete academic ecosystem that connects Admin, Faculty, Students, and Alumni within a single platform. Each module is designed to perform specific functions such as document management, user managemen
+P4: The chatbot module, powered by semantic search and retrieval techniques, ensures that users receive relevant and precise answers based on official academic documents. This not only enhances the reliability of the system but also builds user trust. The system h
+P5: Furthermore, the user-friendly web interface ensures easy accessibility for all users, regardless of their technical background. The system is scalable and can be extended with additional features such as voice interaction, multilingual support, and advanced a
+P6: In conclusion, FLEXIBOT successfully fulfils its objective of providing a centralized, intelligent, and efficient academic assistant. It enhances the accessibility of academic information, streamlines institutional processes, and improves user engagement, maki
+P7: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  77
+
+=== IDX 93 (paras=8) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: 9.3 FUTURE ENHANCEMENT
+P2: •Voice-based interaction:  / Integration of voice recognition and speech response features to enable hands-free interaction with the system, improving accessibility and user convenience.
+P3: •Mobile Application Development:  / Development of a dedicated mobile application to provide better accessibility and allow users to access the system anytime and anywhere.
+P4: •Multilingual Support:  / Support for multiple languages to make the system more user-friendly and accessible to a diverse group of users.
+P5: •Integration with External Academic Systems:  / Integration with existing academic platforms such as College Management Systems (CMS) to enable seamless data sharing and improved functionality.
+P6: •Advanced AI Model Enhancement:  / Continuous improvement of the chatbot using advanced AI models to enhance accuracy, context understanding, and response quality.
+P7: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  78
+
+=== IDX 94 (paras=1) ===
+P0: CHAPTER-10  / BIBLIOGRAPHY
+
+=== IDX 95 (paras=14) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: 10.1 BOOKS
+P2: •Speech and Language Processing – Daniel Jurafsky and James H. Martin- A comprehensive book on Natural Language Processing, useful for understanding chatbot concepts and language models.
+P3: •Artificial Intelligence: A Modern Approach – Stuart Russell and Peter Norvig -Covers core AI concepts including intelligent agents, reasoning, and machine learning.
+P4: •Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow – Aurélien Géron- Practical guide for machine learning techniques applicable in AI-based systems.
+P5: •Deep Learning – Ian Goodfellow, Yoshua Bengio, Aaron Courville-Covers deep 	learning fundamentals used in modern AI models.
+P6: •Python Crash Course – Eric Matthes-Useful for understanding Python programming 	used in backend and AI modules.
+P7: •Flask Web Development – Miguel Grinberg-Covers development of web applications 	using Flask.
+P8: •Learning MySQL – Seyed Tahaghoghi, Hugh E. Williams-Helps in understanding 	database design and management.
+P9: 10.2 WEBSITES
+P10: •	React  / 	 / 	Used for building the frontend user interface.
+P11: •	Flask  / 	 / 	Used for backend API development.
+P12: •	Node.js  / 	 / 	Used for server-side operations.
+P13: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  79
+
+=== IDX 96 (paras=13) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: •	MySQL  / 	 / 	Used for database management.
+P2: •	FAISS  / 	 / 	Used for efficient similarity search and vector retrieval.
+P3: •	Sentence Transformers  / 	 / 	Used for generating semantic embeddings.
+P4: •	Groq  / 	 / 	Used for accessing high-performance LLM inference.
+P5: •	LLaMA  / 	 / 	Large Language Model used for response generation.
+P6: •	Visual Studio Code  / 	 / 	Used as the development environment.
+P7: 10.3 JOURNALS AND PUBLICATIONS
+P8: [1] P. Darshan, E. Sanghavi, G. Chennakeshava, M. M. Kodabagi, et al., “AI Chatbot for Educational Institution: A Case Study,” IEEE, 2025.
+P9: [2] R. Ananya, S. P. Bharath Kumar, Ch. Deekshith Reddy, B. V. Srikanth, “Artificial Intelligence Chatbot For Education,” Journal of Science, Computing and Engineering Research (JSCER), Feb. 2025.
+P10: [3] G. S. Masula, R. Barrios, E. Hilario, “Chatbot as Academic Companion: Exploring Education Students’ Narratives in Using AI in Learning,” Journal of Interdisciplinary Perspectives, Jun. 2025.
+P11: [4] P. Kunekar, O. Thigale, M. Waghmode, S. Telsang, S. Shinde, M. Thakare, “AI-Driven Alumni Networking Platform,” IEEE, 2024.
+P12: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  80
+
+=== IDX 97 (paras=7) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: [5] S. Ch., J. Ismail, V. Anil, Venkatesh, S. Rasheed, “AI Powered Academic Assistant Using Conversational AI,” IEEE, 2023.
+P2: [6] R. Llanos, G. M. Gonzales, J. Morzan, “Enhancing Student Success through AI Virtual Assistant,” IEEE, 2023.
+P3: [7] L. Labadze, M. Grigolia, L. Machaidze, “Role of AI Chatbots in Education: Systematic Literature Review,” International Journal of Educational Technology in Higher Education, 2023.
+P4: [8] J. Belda-Medina, V. Kokošková, “Integrating Chatbots in Education: Insights from the CHISM Model,” International Journal of Educational Technology in Higher Education, 2023.
+P5: [9] M. A. Kuhail, N. Alturki, S. Alramlawi, “Interacting with Educational Chatbots: A Systematic Review,” Education and Information Technologies, 2022.
+P6: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  81
+
+=== IDX 98 (paras=1) ===
+P0: APPENDICES
+
+=== IDX 99 (paras=4) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: LIST OF TABLES
+P2: 1. DB TABLES:
+P3: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  82
+
+=== IDX 100 (paras=4) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: 2. TEST-CASES
+P2: LIST OF FIGURES
+P3: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  83
+
+=== IDX 101 (paras=3) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: GIT HISTORY
+P2: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  84

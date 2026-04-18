@@ -1,0 +1,1238 @@
+[
+  {
+    "table_index": 0,
+    "paragraph_count": 4,
+    "paragraphs": [
+      "FLEXIBOT",
+      "AN AI POWERED ACADEMIC ASSISTANT",
+      "A Project Report \nSubmitted By, \nSNEHA BABU G - LMC24MCA-2054 \nin partial fulfilment of the requirements for the award of the degree in \nMASTER OF COMPUTER APPLICATIONS at",
+      "DEPARTMENT OF COMPUTER APPLICATIONS \nLOURDES MATHA COLLEGE OF SCIENCE AND TECHNOLOGY KUTTICHAL, THIRUVANATHAPURAM-695574 \n(AFFILIATED TO APJ ABDUL KALAM TECHNOLOGICAL UNIVERSITY, KERALA) MARCH 2026"
+    ]
+  },
+  {
+    "table_index": 1,
+    "paragraph_count": 8,
+    "paragraphs": [
+      "LOURDES MATHA COLLEGE OF SCIENCE AND TECHNOLOGY",
+      "KUTTICHAL, THIRUVANATHAPURAM-695574",
+      "(Affiliated To APJ Abdul Kalam Technological University, Kerala)",
+      "DEPARTMENT OF COMPUTER APPLICATIONS",
+      "CERTIFICATE",
+      "This is to certify that the project work entitled “FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT” is a Bonafide record of the work done by Ms. SNEHA BABU G, Reg No: LMC24MCA-2054, student of Department of Computer Applications, Lourdes Matha College Of Science And Technology, Kuttichal, Thiruvananthapuram, affiliated to the APJ Abdul Kalam Technological University, Kerala from December 2025 to March 2026 in partial fulfilment of the requirements for the award of the Degree of Master of Computer Applications from APJ Abdul Kalam Technological University, Kerala.",
+      "Ms. SHERIN JOSEPH \tDate: \t (Internal Guide)",
+      "Ms. BISMI K CHARLEYS \n(Head of the Department)"
+    ]
+  },
+  {
+    "table_index": 2,
+    "paragraph_count": 3,
+    "paragraphs": [
+      "DECLARATION",
+      "I undersigned here by declared that the project report “FLEXIBOT – AN AI POWERED ACADEMIC ASSISTANT” submitted for partial fulfilment of the requirements for the award of degree of Master of Computer Applications of the APJ Abdul Kalam Technological University, Kerala. This submission represents my idea in my own words and, I have adequately and accurately cited and referenced the original sources. I also declare that I have adhered to ethics of academic honesty and integrity and have not misrepresented or fabricated any data or idea or fact of source in my submission. I understand that any violation of the above will be a cause for disciplinary action by the institute and/or the university.",
+      "Place: TRIVANDRUM \tSNEHA BABU G Date:"
+    ]
+  },
+  {
+    "table_index": 3,
+    "paragraph_count": 7,
+    "paragraphs": [
+      "ACKNOWLEDGEMENT",
+      "An endeavour over a long time can be successful only with advice and support of many well-wishers. I wish to place on record my profound indebtedness and gratitude to all those who have contributed directly or indirectly to make this project work a success.",
+      "At the very onset, I express my gratitude to God Almighty who sheltered me under his protective wings and showered on innumerable blessings throughout the period of this Master of Computer Application.",
+      "It is a great pleasure to express my sincere gratitude to Rev. Dr. Bejoy Arackal, Director and Dr. Beshiba Wilson, Principal of Lourdes Matha College of Science and Technology for permitting to do this project with the fullest spirit.",
+      "I am highly obliged to Ms. Bismi K Charleys, Head of the Department of Computer Applications of Lourdes Matha College of Science and Technology, for being the source of inspiration throughout the course and for her valuable guidance.",
+      "With heart full of thanks, I would like to take up this opportunity to wish my Internal guide Ms. Sherin Joseph, Assistant Professor and all Staffs of Department of Computer Applications for their endless support, encouragements and suggestions in various stages of the development of this project.",
+      "With immense love and gratitude, I thank every unknown number of numerous amounts of open- source communities for all the selfless works and contributions they’ve made. Without them and their help, I wouldn’t have made it here. Finally, I wish to express my sincere gratitude to all our friends who directly or indirectly contributed in this venture."
+    ]
+  },
+  {
+    "table_index": 4,
+    "paragraph_count": 2,
+    "paragraphs": [
+      "CONTENTS",
+      "CONTENT \tPage No ABSTRACT \t\t1 CHAPTER 1 \n1.INTRODUCTION \n\t 1.1 GENERAL INTRODUCTION \t\t2 \t 1.2 GOAL OF THE PROJECT \t\t3 CHAPTER 2 \n2. LITERATURE SURVEY \n\t 2.1 STUDY OF SIMILAR WORKS \t\t4 \t 2.2 EXISTING SYSTEM \t\t7 \t 2.3 DRAWBACKS OF EXISTING SYSTEM \t\t8 CHAPTER 3 \n3. OVERALL DESCRIPTION \n\t 3.1 PROPOSED SYSTEM \t\t9 \t 3.2 FEATURES OF PROPOSED SYSTEM \t\t9 \t 3.3 FUNCTIONS OF PROPOSED SYSTEM \t10 \t 3.4 REQUIREMENTS SPECIFICATIONS \t11 \t 3.5 FEASIBILITY ANALYSIS \t12 \t\t 3.5.1 TECHNICAL FEASIBILITY \t13 \t\t 3.5.2 OPERATIONAL FEASIBILITY \t13 \t\t 3.5.3 ECONOMICAL FEASIBILITY \t13 \t\t 3.5.4 BEHAVIOURAL FEASIBILITY \t14 CHAPTER 4 \n4. OPERATING ENVIRONMENT \n\t 4.1 HARDWARE REQUIREMENTS \t15 \t 4.2 SOFTWARE REQUIREMENTS \t15 \t 4.3 TOOLS AND PLATFORMS \t15 \t\t 4.3.1 REACT JS \t15 \t\t 4.3.2 BOOTSTRAP \t16 \t\t 4.3.3 TAILWIND CSS \t16 \t\t 4.3.4 PYTHON \t17 \t\t 4.3.5 FLASK \t17"
+    ]
+  },
+  {
+    "table_index": 5,
+    "paragraph_count": 31,
+    "paragraphs": [
+      "4.3.6 NODE JS 17",
+      "4.3.7 MYSQL 18",
+      "4.3.8 LLAMA 3.3 18",
+      "4.3.9 VISUAL STUDIO CODE 19",
+      "CHAPTER 5",
+      "5. DESIGN",
+      "5.1 SYSTEM DESIGN 20",
+      "5.2 WORKFLOWDIAGRAM 21",
+      "5.3 USECASE DIAGRAM 22",
+      "5.3.1 ADMIN AND FACULTY 22",
+      "5.3.2 STUDENT AND ALUMINI 23",
+      "5.4 INPUT DESIGN 24",
+      "5.5 OUTPUT DESIGN 25",
+      "5.6 PROGRAM DESIGN 26",
+      "5.7 DATABASE DESIGN 27",
+      "5.8 TABLE DESIGN 28",
+      "CHAPTER 6",
+      "6. FUNCTIONAL AND NON-FUNCTIONAL REQUIREMENTS",
+      "6.1 FUNCTIONAL REQUIREMENTS 52",
+      "6.2 NON-FUNCTIONAL REQUIREMENTS 52",
+      "CHAPTER 7",
+      "7. IMPLEMENTATION AND TESTING",
+      "7.1 SYSTEM IMPLEMENTATION 54",
+      "7.2 TESTING 55",
+      "7.2.1 SYSTEM TESTING 55",
+      "7.2.2 UNIT TESTING 56",
+      "7.2.3 INTEGRATION TESTING  56",
+      "7.2.4 BLACK BOX TESTING 56",
+      "7.2.5 VALIDATION TESTING 56",
+      "7.2.6 OUTPUT TESTING 57",
+      "7.2.7 USER ACCEPTANCE TESTING 57"
+    ]
+  },
+  {
+    "table_index": 6,
+    "paragraph_count": 20,
+    "paragraphs": [
+      "7.2.8 WHITEBOX TESTING 57",
+      "7.3 TEST CASES 58",
+      "CHAPTER 8",
+      "8. RESULTS AND DISCUSSIONS",
+      "8.1 RESULTS 61",
+      "8.2 SCREENSHOTS  62",
+      "CHAPTER 9",
+      "9. CONCLUSION",
+      "9.1 SYSTEM MAINTENANCE 76",
+      "9.2 CONCLUSION 77",
+      "9.3 FUTURE ENHANCEMENT 78",
+      "CHAPTER 10",
+      "10. BIBLIOGRAPHY",
+      "10.1 BOOKS 79",
+      "10.2 WEBSITES 79",
+      "10.3 JOURNALS 80",
+      "APPENDICES",
+      "1. LIST OF TABLES 82",
+      "2. LIST OF FIGURES 83",
+      "GIT HISTORY 84"
+    ]
+  },
+  {
+    "table_index": 7,
+    "paragraph_count": 4,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "ABSTRACT",
+      "Academic institutions generate large volumes of academic information such as syllabus, regulations, timetables, circulars, and examination details. However, accessing this information through existing systems is difficult, as it requires manual searching across multiple websites and documents, making the process time-consuming and inefficient. There is also a lack of an intelligent system that provides instant academic support along with a centralized platform for managing academic activities. To address these challenges, FLEXIBOT is proposed as an AI-powered academic assistant. The system is designed to understand user queries and provide accurate information by retrieving content from official institutional documents. It ensures reliable and quick responses, thereby improving the accessibility of academic information. In addition to providing academic assistance, the system integrates multiple user roles including Admin, Faculty, Student, and Alumni within a single platform, enabling better coordination and communication within the institution. The system is implemented with reference to Lourdes Matha College of Science and Technology (LMCST), while being adaptable to other institutions. Overall, FLEXIBOT provides a centralized, efficient, and user-friendly solution that reduces manual effort, simplifies information retrieval, and enhances academic support services.",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  1"
+    ]
+  },
+  {
+    "table_index": 8,
+    "paragraph_count": 1,
+    "paragraphs": [
+      "CHAPTER-1 \nINTRODUCTION"
+    ]
+  },
+  {
+    "table_index": 9,
+    "paragraph_count": 8,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "1.1 GENERAL INTRODUCTION",
+      "The rapid advancement of Artificial Intelligence (AI) has significantly transformed various sectors, including education. Modern educational institutions increasingly rely on digital platforms to manage academic activities, student records, communication, and administrative processes. However, most existing systems are limited to basic functionalities such as attendance management, internal marks recording, and notice publishing. These systems lack intelligent assistance, centralized communication, and personalized academic support.",
+      "In today’s academic environment, students require instant access to accurate academic information, study materials, event updates, and career opportunities. At the same time, institutions need an integrated system that connects students, faculty, administrators, and alumni within a single digital ecosystem. The absence of such an intelligent and unified platform often leads to fragmented communication, manual processes, and inefficient information retrieval.",
+      "To address these challenges, FLEXIBOT – AI Powered Academic Assistant System is proposed. FLEXIBOT is an integrated academic support platform designed specifically for institutional environments. It combines role-based academic management with an AI-driven chatbot capable of answering academic queries based on institution-uploaded documents. The system supports multiple user roles including Admin, Faculty, Students, and Alumni, each with dedicated functionalities.",
+      "The core component of FLEXIBOT is its AI-powered chatbot module, which provides context-aware, document-grounded responses to student queries. In addition to academic assistance, the system also facilitates alumni networking, job opportunity sharing, activity tracking, event posting, and secure communication among users.",
+      "By integrating intelligent automation with academic management features, FLEXIBOT aims to enhance institutional efficiency, improve student support services, and strengthen the connection between current students and alumni. The system represents a step toward modernizing academic environments through the effective application of Artificial Intelligence and web technologies.",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  2"
+    ]
+  },
+  {
+    "table_index": 10,
+    "paragraph_count": 8,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "1.2 GOAL OF THE PROJECT",
+      "The primary goal of the project FLEXIBOT – AI Powered Academic Assistant System is to design and develop an intelligent, centralized academic platform that integrates institutional management with AI-driven academic assistance.",
+      "The project aims to provide a unified digital ecosystem that connects administrators, faculty, students, and alumni within a single secure platform. Unlike traditional content management systems that focus only on attendance and marks, FLEXIBOT extends functionality by incorporating an AI-powered chatbot capable of answering academic queries based on institution-uploaded documents.",
+      "The key goals of the project are:",
+      "•To develop a role-based academic management system for Admin, Faculty, Students, \tand Alumni \n•To implement a document-grounded AI chatbot for accurate academic query resolution •To enable alumni networking and job opportunity sharing \n•To provide centralized communication and alert mechanisms \n•To enhance student academic support and engagement \n•To ensure secure access control and structured data management",
+      "Overall, the project seeks to modernize institutional operations by combining artificial intelligence with academic administration, thereby improving efficiency, accessibility, and interaction within the educational environment.",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  3"
+    ]
+  },
+  {
+    "table_index": 11,
+    "paragraph_count": 1,
+    "paragraphs": [
+      "CHAPTER-2 \nLITERATURE SURVEY"
+    ]
+  },
+  {
+    "table_index": 12,
+    "paragraph_count": 7,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "2.1 STUDY OF SIMILAR WORKS",
+      "1. AI Chatbot for Educational Institution: A Case Study (IEEE, 2025) \n\tThis paper presents the development of an AI chatbot designed to assist users in educational institutions by providing quick access to academic information. The system focuses on automating responses to frequently asked questions and improving accessibility to institutional data through a conversational interface. It highlights the growing importance of AI-based assistants in academic environments.",
+      "Key Points: \n\t•Implements an AI chatbot for academic query handling \n\t•Provides automated responses to user queries \n\t•Enhances accessibility to institutional information \nHowever, the system mainly focuses on chatbot functionality and does not provide a fully integrated platform with multiple user roles or centralized institutional management.",
+      "2. AI-Driven Alumni Networking Platform (IEEE, 2024) \n\tThis work investigates the use of artificial intelligence to facilitate networking between alumni and students. The system emphasizes career readiness, job opportunity sharing, and student–alumni engagement. It uses recommendation mechanisms to connect users based on interests, career goals, and academic history. The focus of this study is on leveraging AI to enhance post-academic networking and professional collaboration.",
+      "Key Points: \n\t•Employs AI-based networking and recommendation algorithms \n\t•Targets alumni engagement and career support \n\t•Improves interaction between former students and current students \nAlthough this research advances alumni networking with AI, it does not address academic query resolution or the integration of an AI support assistant for general institutional information.",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  4"
+    ]
+  },
+  {
+    "table_index": 13,
+    "paragraph_count": 12,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "3. AI Powered Academic Assistant Using Conversational AI (IEEE, 2023)",
+      "This research explores the development of an AI-based academic assistant that uses conversational artificial intelligence techniques to handle academic queries. The system leverages Natural Language Processing (NLP), dialogue management, and machine learning algorithms to interpret user inputs and generate relevant responses. While the model demonstrates the potential of AI assistance in academic settings, it primarily focuses on conversational abilities without integrating document-grounded query resolution or role-based institutional functionality.",
+      "Key Points:",
+      "•Implements conversational AI for answering academic questions \n•Uses NLP and Machine Learning for query understanding \n•Focuses on dialogue management rather than structured institutional data",
+      "The study demonstrates the effectiveness of AI in student support but lacks advanced document retrieval mechanisms and multi-user institutional integration.",
+      "4. Enhancing Student Success through AI Virtual Assistant (IEEE, 2023)",
+      "This study presents the design and implementation of a virtual assistant aimed at improving student success in higher education institutions. The system focuses on providing support for academic inquiries and guiding students through administrative and academic processes. It integrates virtual assistants with analytics tools to monitor usage and improve engagement.",
+      "Key Points:",
+      "•Implements an AI virtual assistant to support students •Includes analytics to measure engagement and effectiveness •Focuses on student interaction and success outcomes",
+      "While this work highlights the importance of AI virtual assistance in education, it does not combine multi-role institutional management, document-grounded responses, or alumni integration.",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  5"
+    ]
+  },
+  {
+    "table_index": 14,
+    "paragraph_count": 12,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "5. Intelligent Document Retrieval and QA System in Education (IEEE, 2022)",
+      "This study focuses on the design of an intelligent document retrieval system that uses semantic search and vector space models to support question-answering. The system applies text embeddings and similarity search to retrieve relevant academic information from large datasets. It demonstrates how Natural Language Processing (NLP) and semantic matching can improve the quality of responses compared to keyword-based search.",
+      "Key Points:",
+      "•Uses semantic search and embedding models for query matching •Applies intelligent retrieval to educational content \n•Enhances accuracy of information access",
+      "However, this work does not integrate user role management or institutional ecosystem features. The proposed system retrieves relevant content but is limited in scope to document retrieval only.",
+      "6. Machine Learning-Based Student Academic Support System (IEEE, 2021)",
+      "This paper proposes a machine learning-based system for academic support that uses predictive models to analyse student performance and provide guidance. It integrates AI models to recommend personalized academic resources and suggestions based on student behavior and performance patterns. The focus is on enhancing academic performance through intelligent recommendation systems.",
+      "Key Points:",
+      "•Implements predictive analytics to support student academic decisions •Uses historical performance data to provide personalized recommendations •Integrates AI models with student support services",
+      "The system does not provide an AI conversational assistant or document-grounded query responses, and it focuses mainly on student analytics rather than institutional query assistance.",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  6"
+    ]
+  },
+  {
+    "table_index": 15,
+    "paragraph_count": 6,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "2.2 EXISTING SYSTEM",
+      "The existing systems used in educational institutions mainly depend on traditional methods such as official websites, notice boards, emails, and document repositories to provide academic information. Students, faculty, and other users often need to manually search through multiple sources to find details related to syllabus, timetables, circulars, examination schedules, and academic regulations. This process is not only time-consuming but also inefficient, especially when quick access to information is required. In recent years, some institutions have started using basic digital platforms and AI-based chatbots to improve accessibility. These systems allow users to ask questions and receive instant responses. However, most of these chatbots provide only general or pre-defined answers and may not always deliver accurate or updated information from official institutional documents.",
+      "Additionally, several systems focus on specific functionalities such as alumni networking, student performance analysis, or academic recommendations. While these systems are helpful in their respective areas, they operate independently and do not offer a complete solution for overall academic support within the institution. Another major issue with existing systems is the lack of integration among different users such as Admin, Faculty, Students, and Alumni. Each user group often interacts with separate systems, leading to poor coordination and communication gaps. There is no single platform that brings together all users and academic services in a unified manner.",
+      "Furthermore, the absence of a centralized system results in duplication of information, difficulty in maintaining consistency, and increased effort in managing academic data. Users may also face confusion due to outdated or scattered information across different platforms.",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  7"
+    ]
+  },
+  {
+    "table_index": 16,
+    "paragraph_count": 10,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "2.3 DRAWBACKS OF EXISTING SYSTEM",
+      "1. Time-Consuming Information Retrieval \nUsers have to manually search through multiple sources such as websites, documents, and notice boards, making the process slow and inefficient.",
+      "2. Lack of Centralized Platform \nAcademic information is scattered across different systems, so users cannot access everything from a single place.",
+      "3. Limited Accessibility and Convenience \nUsers may find it difficult to quickly access required information due to the absence of a unified interface.",
+      "4. Limited Accuracy in Existing Chatbots \nMost chatbots provide only predefined or generic responses and lack proper understanding of user queries.",
+      "5.Lack of Document-Grounded Responses \nSystems fail to provide answers directly based on official institutional documents, reducing reliability.",
+      "6. Fragmented Information Sources \nAcademic information is distributed across multiple platforms such as websites, documents, and notices, making it difficult to access in a unified manner.",
+      "7. Absence of Integrated Platform \nThere is no single system that combines academic assistance, user management, and alumni interaction.",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  8"
+    ]
+  },
+  {
+    "table_index": 17,
+    "paragraph_count": 1,
+    "paragraphs": [
+      "CHAPTER-3 \nOVERALL DESCRIPTION"
+    ]
+  },
+  {
+    "table_index": 18,
+    "paragraph_count": 10,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "3.1 PROPOSED SYSTEM",
+      "The proposed system, FLEXIBOT, is an AI-Powered Academic Assistant designed to provide a centralized platform for managing and accessing academic information within an educational institution. The system aims to simplify the process of retrieving academic details by offering an intelligent and user-friendly interface. FLEXIBOT integrates multiple user roles including Admin, Faculty, Student, and Alumni within a single environment. This unified approach improves coordination and communication among users while ensuring that all academic services are available in one place.",
+      "The system is capable of understanding user queries and providing accurate responses based on official institutional documents. This ensures that the information delivered is reliable and relevant. Academic data such as syllabus, circulars, regulations, and examination details are maintained and managed within the system. Users can access required information quickly without the need for manual searching through multiple documents or websites. The platform enhances efficiency by reducing time and effort in retrieving academic information.",
+      "In addition, the system supports interaction among different users, making it not just an academic assistant but a complete academic support ecosystem. Overall, FLEXIBOT provides a centralized, efficient, and intelligent solution for academic information management and assistance in institutions like Lourdes Matha College of Science and Technology (LMCST).",
+      "3.2 FEATURES OF PROPOSED SYSTEM",
+      "•Centralized Academic Platform \nProvides a single platform to access all academic information, eliminating the need to search across multiple sources.",
+      "•AI-Powered Academic Assistant \nEnables users to ask queries in a simple manner and receive quick and relevant responses.",
+      "•Document-Based Information Access \nEnsures that responses are based on official academic documents, improving reliability and accuracy.",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  9"
+    ]
+  },
+  {
+    "table_index": 19,
+    "paragraph_count": 14,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "•Multi-User System \nSupports different users including Admin, Faculty, Student, and Alumni within the same system.",
+      "•Easy Information Retrieval \nAllows users to quickly obtain details such as syllabus, timetables, and circulars without manual searching.",
+      "•User-Friendly Interface \n\tDesigned to be simple and easy to use, making it accessible for all types of users.",
+      "•Efficient Data Management \n\tEnables proper storage and organization of academic data in a structured manner.",
+      "•Improved Communication \n\tFacilitates better interaction between different users within the institution.",
+      "•Reduced Manual Effort \n\tMinimizes the need for manual searching and handling of academic information.",
+      "•Scalable System \n\tCapable of handling increasing amounts of academic data as the institution grows.",
+      "3.3 FUNCTIONS OF PROPOSED SYSTEM",
+      "•User Authentication and Access Control \nThe system allows different users to securely log in and access features based on their roles.",
+      "•Query Processing and Response Generation \n\tAccepts user queries and provides relevant responses in a quick and efficient manner.",
+      "•Academic Information Retrieval \nRetrieves important academic details such as syllabus, timetables, and circulars from stored data.",
+      "•Document Management \n\tEnables storing, updating, and organizing academic documents within the system.",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  10"
+    ]
+  },
+  {
+    "table_index": 20,
+    "paragraph_count": 11,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "•Centralized Data Handling \nMaintains all academic information in a single system for easy access and management.",
+      "•User Interaction Management \n\tFacilitates smooth interaction between users through a common platform.",
+      "•Information Update and Maintenance \n\tAllows regular updating of academic data to ensure accuracy and consistency.",
+      "•Search Functionality \n\tProvides an easy way for users to search and access required information quickly.",
+      "•System Monitoring and Control \n\tEnsures proper functioning of the system and manages user activities effectively.",
+      "•Data Organization and Storage \n\tOrganizes academic data in a structured format for efficient retrieval and usage.",
+      "3.4 REQUIREMENTS SPECIFICATION",
+      "System Analysis is the process of studying a system in order to understand its structure, functionality, and user requirements. It helps in identifying the needs of users and ensures that the developed system provides an effective and efficient solution. Requirement Specification is closely related to system analysis, as it defines what the system is expected to perform before the actual development begins.",
+      "In the context of the proposed system, FLEXIBOT, the requirement specification focuses on identifying the needs of different users such as Admin, Faculty, Students, and Alumni, and translating them into a structured form. It defines the services provided by the system, the expected behaviour, and the overall performance requirements. This ensures that the system is developed in a way that meets user expectations and provides a smooth and efficient academic support experience.",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  11"
+    ]
+  },
+  {
+    "table_index": 21,
+    "paragraph_count": 13,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "The requirement specification for the proposed system is as follows:",
+      "•User Authentication and Access Control \nThe system should provide a secure login mechanism for all users and ensure that access to features is based on user roles.",
+      "•AI-Based Query Handling \nThe system should accept user queries and provide relevant responses in a simple and efficient manner.",
+      "•Academic Information Retrieval \nThe system should allow users to access academic details such as syllabus, timetables, circulars, and examination information.",
+      "•Document Management \nThe system should support uploading, storing, and managing academic documents in an organized way.",
+      "•Centralized Platform \nThe system should provide a single platform where all academic information and services are available.",
+      "•Multi-User Support \nThe system should support different users including Admin, Faculty, Student, and Alumni within the same environment.",
+      "•Easy Search and Navigation \n\tThe system should enable users to quickly find required information without difficulty.",
+      "•User-Friendly Interface \nThe system should have a simple and easy-to-use interface suitable for all types of users.",
+      "3.5 FEASIBILITY ANALYSIS",
+      "Feasibility study evaluates the proposed system’s workability, its impact on the organization, its ability to meet user requirements, and the effective use of available resources. Before the development of any system, it is essential to conduct a feasibility study to determine whether the system will be beneficial and practical within the given constraints of time, cost,",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  12"
+    ]
+  },
+  {
+    "table_index": 22,
+    "paragraph_count": 12,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "and resources. This study helps in identifying potential risks and ensures that the system can be successfully implemented in a real-world environment.",
+      "In the case of FLEXIBOT, the feasibility study focuses on analysing whether the system can provide an efficient academic support platform for users such as Admin, Faculty, Students, and Alumni. It also ensures that the system can be developed using available technologies and can be effectively used within the institution.",
+      "3.5.1 TECHNICAL FEASIBILITY",
+      "Technical feasibility focuses on evaluating whether the required technology and resources are available to develop the proposed system. The system is designed using commonly available tools and technologies, which makes its implementation feasible without requiring complex infrastructure.",
+      "The development of FLEXIBOT involves selecting appropriate front-end and back-end technologies that support efficient data handling and user interaction. The system can be implemented using standard computing devices and does not require high-end hardware. Hence, the technical requirements of the system can be easily satisfied.",
+      "3.5.2 OPERATIONAL FEASIBILITY",
+      "Operational feasibility determines how well the proposed system can be used within the organization. The system is designed with a user-friendly interface that allows users to easily interact with it without requiring extensive training.",
+      "FLEXIBOT simplifies the process of accessing academic information and reduces the need for manual searching. The system ensures smooth interaction for all users and improves overall efficiency. It requires minimal human effort for operation and maintenance, making it highly suitable for institutional use.",
+      "3.5.3 ECONOMIC FEASIBILITY",
+      "Economic feasibility evaluates the cost-effectiveness of the proposed system by comparing the expected benefits with the development and maintenance costs. The development of FLEXIBOT does not involve high expenses, as it utilizes available resources and standard tools.",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  13"
+    ]
+  },
+  {
+    "table_index": 23,
+    "paragraph_count": 6,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "The benefits provided by the system, such as time-saving, improved efficiency, and better information management, outweigh the costs involved. Therefore, the system is considered economically feasible.",
+      "3.5.4 BEHAVIORAL FEASIBILITY",
+      "Behavioural feasibility analyses how users will accept and adapt to the proposed system. FLEXIBOT is designed to provide a simple and convenient way of accessing academic information, making it highly acceptable to users.",
+      "Users are more likely to adopt the system due to its ease of use and ability to provide quick and accurate information. The system improves user experience by reducing complexity and enhancing interaction. Hence, it is expected to be positively received by all users within the institution.",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  14"
+    ]
+  },
+  {
+    "table_index": 24,
+    "paragraph_count": 1,
+    "paragraphs": [
+      "CHAPTER-4 \nOPERATING ENVIRONMENT"
+    ]
+  },
+  {
+    "table_index": 25,
+    "paragraph_count": 26,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "4.1 HARDWARE REQUIREMENTS",
+      "The system is designed to function on standard computing environments without requiring",
+      "high-end specifications. The following hardware requirements ensure smooth development and",
+      "testing:",
+      "•Processor \t: Intel Core i3 or higher",
+      "•RAM \t: 4 GB minimum",
+      "•Storage \t: 128 GB SSD or 500 GB HDD",
+      "•Display \t: 1280×720 resolution or higher",
+      "4.2 SOFTWARE REQUIREMENTS",
+      "The software stack used in this project includes:",
+      "•Operating System \t: Windows 11",
+      "•Frontend \t: React.js, Bootstrap, Tailwind CSS",
+      "•Backend \t: Python (Flask), Node.js",
+      "•Database \t: MySQL",
+      "•LLM \t: LLaMA 3.3 – 70B Versatile",
+      "•Code Editor/IDE \t: Visual Studio Code",
+      "4.3 TOOLS AND PLATFORM",
+      "4.3.1 React.js",
+      "React.js is a powerful and widely used JavaScript library for building modern, dynamic,",
+      "and interactive user interfaces, especially for single-page applications. Developed and",
+      "maintained by Facebook, React follows a component-based architecture, which allows",
+      "developers to create reusable, modular UI components, improving code readability, scalability,",
+      "and maintainability. One of its key features is the virtual DOM, which optimizes rendering",
+      "performance by updating only the necessary parts of the user interface instead of reloading the",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  15"
+    ]
+  },
+  {
+    "table_index": 26,
+    "paragraph_count": 7,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "entire page. React also supports unidirectional data flow, making application behaviour more predictable and easier to debug. Additionally, it integrates easily with other libraries and frameworks, enabling the development of complex and feature-rich applications. In this project, React.js is used to build a responsive and user-friendly frontend interface that facilitates seamless interaction between users and the AI-powered chatbot system.",
+      "4.3.2 BOOTSTRAP",
+      "Bootstrap is a widely used open-source front-end framework designed for developing responsive and mobile-first web applications. It provides a comprehensive collection of pre-designed UI components such as buttons, forms, navigation bars, modals, alerts, and cards, which significantly reduce development time and effort. Bootstrap is built on HTML, CSS, and JavaScript, and it offers a powerful grid system that allows developers to create flexible and responsive layouts that adapt seamlessly to different screen sizes and devices. It also includes numerous utility classes for spacing, typography, colors, and alignment, making it easier to maintain consistency in design. Additionally, Bootstrap supports cross-browser compatibility and ensures uniform appearance across various platforms. In this project, Bootstrap is used to design a visually appealing and responsive user interface, improving usability and providing a consistent experience for users interacting with the chatbot system.",
+      "4.3.3 TAILWIND CSS",
+      "Tailwind CSS is a modern utility-first CSS framework used for designing custom and responsive user interfaces efficiently. Unlike traditional CSS frameworks, Tailwind provides low-level utility classes that allow developers to style elements directly within the HTML, enabling greater flexibility and control over the design. It eliminates the need to write extensive custom CSS by offering predefined classes for layout, spacing, typography, colors, and responsiveness. Tailwind promotes a clean and maintainable design approach by reducing stylesheet complexity and encouraging reusable design patterns. It also supports responsive design and customization, allowing developers to easily adapt the interface for different screen sizes and devices. In this project, Tailwind CSS is used alongside Bootstrap to create a visually appealing, highly responsive, and easily customizable frontend for the chatbot system.",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  16"
+    ]
+  },
+  {
+    "table_index": 27,
+    "paragraph_count": 8,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "4.3.4 PYTHON",
+      "Python is a high-level, interpreted, and general-purpose programming language known for its simplicity, readability, and ease of use. It supports multiple programming paradigms, including object-oriented, procedural, and functional programming, making it highly flexible for various types of application development. Python has an extensive standard library and a vast ecosystem of third-party libraries that simplify tasks such as web development, data analysis, machine learning, and artificial intelligence. Its clear syntax and rapid development capabilities make it a preferred choice for backend development and AI-based systems. Python also offers excellent integration capabilities with other technologies and platforms. In this project, Python is used to develop the backend logic, handle data processing, manage API interactions, and integrate advanced AI components such as Sentence Transformers, FAISS, and Large Language Models, ensuring efficient and scalable system performance.",
+      "4.3.5 FLASK",
+      "Flask is a lightweight and extensible web framework developed in Python, widely used for building web applications and RESTful APIs. It follows a micro-framework architecture, providing only the core functionalities required for web development while allowing developers to integrate additional libraries and tools as needed. Flask offers features such as URL routing, request and response handling, session management, and easy integration with databases and external services. Its simplicity, flexibility, and minimalistic design make it highly suitable for rapid development and scalable applications. Flask also supports seamless integration with AI and machine learning libraries, making it a preferred choice for AI-based backend systems. In this project, Flask is used to manage server-side logic, handle user queries, process data, and connect with AI components such as embeddings and language models, ensuring efficient communication between the frontend and backend of the chatbot system.",
+      "4.3.6 Node.Js",
+      "Node.js is a powerful, open-source, and cross-platform server-side runtime environment that enables the execution of JavaScript code outside the browser. It is built on Google Chrome’s V8 JavaScript engine, which compiles JavaScript into machine code for faster execution. Node.js follows a non-blocking, event-driven architecture, allowing it to",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  17"
+    ]
+  },
+  {
+    "table_index": 28,
+    "paragraph_count": 7,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "handle multiple client requests simultaneously without waiting for previous operations to complete. This makes it highly efficient and suitable for building scalable and high-performance applications, especially real-time systems. It provides a rich ecosystem of libraries and modules through the Node Package Manager (npm), which simplifies development and integration of various functionalities. Node.js also supports seamless communication between client and server, making it ideal for full-stack development. In this project, Node.js is used to manage server-side operations, handle API requests, and facilitate efficient communication between the frontend and backend components, ensuring a responsive and scalable chatbot system.",
+      "4.3.7 MySQL",
+      "MySQL is a widely used open-source relational database management system (RDBMS) designed for efficient storage, management, and retrieval of structured data. It uses Structured Query Language (SQL) to perform various database operations such as creating tables, inserting records, updating data, and querying information. MySQL follows a relational model, organizing data into tables with defined relationships, which helps maintain data integrity and reduces redundancy through normalization. It supports advanced features such as indexing for faster data retrieval, transactions for ensuring data consistency, and concurrency control for handling multiple users simultaneously. MySQL also provides strong security features, including user authentication and access control, to protect sensitive data. Its scalability, reliability, and ease of integration with various programming languages make it a popular choice for web-based applications. In this project, MySQL is used as the primary database to store and manage user details, chatbot queries, responses, and other system-related data, ensuring efficient data handling and quick access to information.",
+      "4.3.8 LLaMA 3.3 – 70B Versatile",
+      "LLaMA 3.3 – 70B Versatile (Large Language Model Meta AI) is a state-of-the-art large language model utilized in this project to generate accurate, context-aware, and human-like responses. Built on the transformer architecture, the model is trained on vast and diverse textual datasets, enabling it to understand complex natural language queries and produce meaningful, coherent outputs. With 70 billion parameters, it offers strong reasoning capabilities, improved",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  18"
+    ]
+  },
+  {
+    "table_index": 29,
+    "paragraph_count": 5,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "contextual understanding, and high-quality response generation, making it highly suitable for advanced conversational AI applications. The “Versatile” variant is specifically optimized to handle a wide range of tasks across multiple domains, ensuring flexibility and adaptability in different user interactions. In this project, the model is integrated using the GROQ API, which provides high-speed inference and low-latency processing, allowing real-time interaction with users. LLaMA is combined with retrieval mechanisms such as Sentence Transformers and FAISS within a Retrieval-Augmented Generation (RAG) framework, where relevant information is first retrieved and then used by the model to generate precise and contextually grounded answers. This integration enhances the overall performance, accuracy, and reliability of the chatbot, enabling it to serve as an efficient AI-powered academic assistant.",
+      "4.3.9 VISUAL STUDIO CODE",
+      "Visual Studio Code (VS Code) is a lightweight yet powerful source code editor developed by Microsoft, widely used for software development across various programming languages. It provides a user-friendly interface along with a rich set of features such as syntax highlighting, code completion, debugging support, and integrated version control. VS Code supports a wide range of extensions, allowing developers to customize the development environment according to project requirements. It also offers built-in support for Git, enabling efficient code management and collaboration. The editor is highly efficient, fast, and compatible with multiple operating systems. In this project, Visual Studio Code is used as the primary development tool for writing, editing, and managing both frontend and backend code, ensuring a smooth and productive development workflow.",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  19"
+    ]
+  },
+  {
+    "table_index": 30,
+    "paragraph_count": 1,
+    "paragraphs": [
+      "CHAPTER-5 \nDESIGN"
+    ]
+  },
+  {
+    "table_index": 31,
+    "paragraph_count": 11,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "5.1 SYSTEM DESIGN",
+      "System Design involves translating system requirements and conceptual design into technical specifications and general flow of processing. After the system requirements have been identified, information has been gathered to verify the problem and after evaluating the existing system, a new system is proposed.",
+      "System Design is the process of planning of new system or to replace or complement an existing system. It must be thoroughly understood about the old system and determine how computers can be used to make its operations more effective. System design sits at technical the kernel of system development. Once system requirements have been analysed and specified system design is the first of the technical activities-design, code generation and test- that required build and verifying the software.",
+      "System design is the most creative and challenging phase  s of the system life cycle. The term design describes the final system and the process by which it is to be developed.",
+      "System design is the high-level strategy for solving the problem and building a solution. System design includes decisions about the organization of the system into subsystems, the allocation of subsystems to hardware and software components and major conceptual and policy decision that forms the framework for detailed design.",
+      "There are two levels of system design: \n\t•Logical design.",
+      "•Physical design.",
+      "In the logical design, the designer produces a specification of the major features of the system which meets the objectives. The delivered product of logical design includes current requirements of the following system components: \n\t•Input design.",
+      "•Output design",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  20"
+    ]
+  },
+  {
+    "table_index": 32,
+    "paragraph_count": 4,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "5.2 WORKFLOW DIAGRAM",
+      "Figure A",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  21"
+    ]
+  },
+  {
+    "table_index": 33,
+    "paragraph_count": 5,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "5.3 USE CASE DIAGRAM",
+      "5.3.1 ADMIN AND FACULTY",
+      "Figure B",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  22"
+    ]
+  },
+  {
+    "table_index": 34,
+    "paragraph_count": 4,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "5.3.3 STUDENT AND ALUMINI",
+      "Figure C",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  23"
+    ]
+  },
+  {
+    "table_index": 35,
+    "paragraph_count": 6,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "5.4 INPUT DESIGN",
+      "Input design is the process of converting user-oriented inputs into a computer-based format for efficient processing. The primary objective of input design is to ensure that data entry is simple, accurate, and error-free. Key requirements such as user-friendliness, consistency, and interactive guidance are considered to help users provide correct input at the right time.",
+      "While designing input, the following aspects are considered: \n\t•\tWhat data needs to be input \n\t•\tThe medium used for input \n\t•\tHow the data should be arranged and formatted \n\t•\n\tProviding proper guidance to users during input \t•\tValidation of data to detect and prevent errors \n\t•\tHandling errors effectively when invalid input is provided \nIn the FLEXIBOT system, input design supports multiple types of user interactions within a centralized academic platform. The system accepts: \n\t•\n\tText-based queries from students, faculty, and alumni for academic assistance \t•\tDocument uploads by the admin, such as syllabus, circulars, and regulations \n\t•\tStructured form inputs for user registration, login, job postings, event details, and \t\tactivity updates \nThe input interface is designed using simple and interactive web forms with clear labels, placeholders, and messages to guide users. This ensures that users can provide input without difficulty, regardless of their technical background.",
+      "Validation mechanisms are implemented to ensure data accuracy by checking for missing, incorrect, or inconsistent values. Only valid data is processed by the system, reducing errors in data handling. Proper arrangement of messages, headings, and input fields enhances usability and improves the overall user experience. Input design also defines how users interact with the system and specify actions such as submitting queries, uploading documents, or managing data. It acts as a crucial link between the user and the system, ensuring that the input data is properly prepared and converted into a usable format for further processing. Thus, the input design in FLEXIBOT enables efficient, accurate, and user-friendly data entry while supporting the diverse functionalities of the AI-powered academic assistant.",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  24"
+    ]
+  },
+  {
+    "table_index": 36,
+    "paragraph_count": 9,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "5.5 OUTPUT DESIGN",
+      "Output design refers to the process of presenting the results and information generated by the system in a clear, meaningful, and user-friendly format. The main objective is to ensure that the output is accurate, well-structured, and easily understandable by users. An effective output design improves user interaction and helps in quick decision-making.",
+      "While designing the output, the following aspects are considered: \n\t•\tDetermining the type of information to be presented \n\t•\tSelecting the appropriate output medium (web interface or email) \n\t•\tOrganizing the information in a clear and structured format \n\t•\n\tEnsuring proper delivery of output to the intended users In the FLEXIBOT system, which is a web-based AI-powered academic assistant, output is primarily delivered through an interactive web interface and email notifications. The system provides different types of outputs based on user roles such as Admin, Faculty, Students, and Alumni.",
+      "Output Design Breakdown \n\t1.Chatbot and Information Display: \n\t\tThe system generates accurate, context-aware responses to user queries based on \t\tinstitutional documents such as syllabus, circulars, and regulations. The information is \t\tdisplayed through an interactive chat interface in a clear, structured, and user-friendly \t\tformat.",
+      "2.User Data and Dashboard Display: \nThe system presents various types of information such as student activity points, academic events, job opportunities, and user profiles through organized dashboards and web pages. This allows users to easily view and manage relevant data.",
+      "3.Notifications and Alerts: \nImportant updates such as approvals, announcements, and system alerts are provided through on-screen notifications and email messages, ensuring timely communication with users.",
+      "The output interface is designed with proper formatting, headings, and layout to enhance readability and usability. Efficient output design ensures that users can easily interpret the information provided by the system.",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  25"
+    ]
+  },
+  {
+    "table_index": 37,
+    "paragraph_count": 30,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "5.6 PROGRAM DESIGN",
+      "Module Breakdown:",
+      "1. ADMIN MODULE",
+      "•\tManages overall system operations and controls platform functionality",
+      "•\tPerforms CRUD (Create, Read, Update, Delete) operations on alumni data",
+      "•\tManages all users including Students, Faculty, and Alumni",
+      "•\tApproves or rejects faculty registration requests",
+      "•\tProvides initial login credentials to users via email",
+      "•\tUploads and manages academic documents such as syllabus, circulars, and regulations",
+      "•\tMonitors chatbot queries and system activity logs",
+      "•\tSends important alerts and notifications to users",
+      "•\tEnsures data accuracy, security, and proper system maintenance",
+      "2. FACULTY MODULE",
+      "•\tPerforms CRUD (Create, Read, Update, Delete) operations on student data",
+      "•\tPosts academic event details for students",
+      "•\tUploads study materials for academic reference",
+      "•\tViews alumni information for academic and career-related insights",
+      "•\tAdds and manages student activity points",
+      "•\tMonitors student participation in academic and co-curricular activities",
+      "•\tEnsures proper management and updating of student-related academic data",
+      "3. STUDENT MODULE",
+      "•\tAsks academic queries through the AI-powered chatbot",
+      "•\tReceives alerts and notifications",
+      "•\tCommunicates with alumni through chat",
+      "•\tPosts academic and co-curricular activities",
+      "•\tViews job opportunities posted by alumni",
+      "•\tTracks and views earned activity points",
+      "•\tAccesses academic information quickly without manual searching",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  26"
+    ]
+  },
+  {
+    "table_index": 38,
+    "paragraph_count": 7,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "4. ALUMINI MODULE \n\t•\tPosts job opportunities for students \n\t•\tViews student profiles for recruitment and interaction \t•\tCommunicates with students through chat \n\t•\n\tShares career-related information and opportunities \t•\tSupports student engagement and professional networking",
+      "5. AI CHATBOT MODULE \n\t•\tReceives user queries in natural language \n\t•\tProcesses queries using AI and NLP techniques \n\t•\tRetrieves relevant information from academic documents \t•\n\tGenerates accurate and context-aware responses \t•\tDisplays responses through an interactive chat interface \t•\tEnsures quick and efficient academic assistance",
+      "5.7 DATABASE DESIGN",
+      "Database design is the process of organizing and structuring data in a systematic way to ensure efficient storage, retrieval, and management of information. It involves defining tables, attributes, and relationships between data elements to maintain consistency and reduce redundancy. A well-designed database improves data integrity, security, and overall system performance.",
+      "In the FLEXIBOT system, MySQL is used as the relational database management system to store and manage data. The database is designed to handle information related to users, academic records, chatbot interactions, and system activities. Data is organized into multiple tables with proper relationships and normalization techniques to ensure efficient data handling, minimize redundancy, and enable quick retrieval of information.",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  27"
+    ]
+  },
+  {
+    "table_index": 39,
+    "paragraph_count": 5,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "5.8 TABLE DESIGN",
+      "Table design is the process of defining the structure of database tables, including fields, data types, and relationships between tables. Each table is created to store specific types of data in an organized manner. Proper table design ensures data consistency, reduces redundancy, and improves efficiency in data storage and retrieval. In this project, tables are designed using MySQL with appropriate keys and relationships to maintain data integrity.",
+      "1. ADMIN_USERS",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  28"
+    ]
+  },
+  {
+    "table_index": 40,
+    "paragraph_count": 3,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "2. ALUMINI",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  29"
+    ]
+  },
+  {
+    "table_index": 41,
+    "paragraph_count": 3,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "3. ALUMINI_MASTER",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  30"
+    ]
+  },
+  {
+    "table_index": 42,
+    "paragraph_count": 3,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "4. ALUMINI_PROFILE",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  31"
+    ]
+  },
+  {
+    "table_index": 43,
+    "paragraph_count": 3,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "5. ALUMINI_EDUCATION",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  32"
+    ]
+  },
+  {
+    "table_index": 44,
+    "paragraph_count": 3,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "6. ALUMINI_EXPERIENCE",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  33"
+    ]
+  },
+  {
+    "table_index": 45,
+    "paragraph_count": 3,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "7. ALUMINI_EVENTS",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  34"
+    ]
+  },
+  {
+    "table_index": 46,
+    "paragraph_count": 4,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "8. ALUMINI_SKILLS",
+      "9. ALERTS",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  35"
+    ]
+  },
+  {
+    "table_index": 47,
+    "paragraph_count": 3,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "10. CHATBOT_MESSAGES",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  36"
+    ]
+  },
+  {
+    "table_index": 48,
+    "paragraph_count": 3,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "11. CONNECTIONS",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  37"
+    ]
+  },
+  {
+    "table_index": 49,
+    "paragraph_count": 3,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "12. CONTACT_MESSAGES",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  38"
+    ]
+  },
+  {
+    "table_index": 50,
+    "paragraph_count": 3,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "13. CONVERSATIONS",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  39"
+    ]
+  },
+  {
+    "table_index": 51,
+    "paragraph_count": 4,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "14. DEPARTMENT_MASTER",
+      "15. DESIGNATION MASTER",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  40"
+    ]
+  },
+  {
+    "table_index": 52,
+    "paragraph_count": 3,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "16.FACULTY",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  41"
+    ]
+  },
+  {
+    "table_index": 53,
+    "paragraph_count": 3,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "17. FAC_LOGIN_MASTER",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  42"
+    ]
+  },
+  {
+    "table_index": 54,
+    "paragraph_count": 3,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "18. MESSAGES",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  43"
+    ]
+  },
+  {
+    "table_index": 55,
+    "paragraph_count": 3,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "19. NOTIFICATIONS",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  44"
+    ]
+  },
+  {
+    "table_index": 56,
+    "paragraph_count": 3,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "20. POSTS",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  45"
+    ]
+  },
+  {
+    "table_index": 57,
+    "paragraph_count": 4,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "21. PROGRAM MASTER",
+      "22. PROGRAM_MASTER_DETAIL",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  46"
+    ]
+  },
+  {
+    "table_index": 58,
+    "paragraph_count": 3,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "23. STUDENT",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  47"
+    ]
+  },
+  {
+    "table_index": 59,
+    "paragraph_count": 3,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "24. STUDENT_ACTIVITIES",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  48"
+    ]
+  },
+  {
+    "table_index": 60,
+    "paragraph_count": 3,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "25. STUDENT_POSTS",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  49"
+    ]
+  },
+  {
+    "table_index": 61,
+    "paragraph_count": 4,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "26. USER_STATUS",
+      "27. USER_LOGIN",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  50"
+    ]
+  },
+  {
+    "table_index": 62,
+    "paragraph_count": 3,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "28. USER_GROUP_MASTER",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  51"
+    ]
+  },
+  {
+    "table_index": 63,
+    "paragraph_count": 1,
+    "paragraphs": [
+      "CHAPTER-6 \nFUNCTIONAL AND NON-FUNCTIONAL REQUIREMENTS"
+    ]
+  },
+  {
+    "table_index": 64,
+    "paragraph_count": 10,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "6.1FUNCTIONAL REQUIREMENTS",
+      "In software engineering, functional requirements define the specific functions and operations that a system must perform. They describe the behaviour of the system in terms of inputs, processing, and outputs. These requirements include data processing, user interactions, and system functionalities that determine what the system is expected to accomplish. Functional requirements are typically expressed in the form of “the system must do” statements.",
+      "In the FLEXIBOT system, the functional requirements include managing different user roles such as Admin, Faculty, Student, and Alumni, handling user queries through the AI-powered chatbot, uploading and retrieving academic documents, and facilitating communication between users. The system also supports features like user management, activity tracking, job posting, notifications, and document-based response generation, ensuring efficient academic support within a centralized platform.",
+      "6.2 NON-FUNCTIONAL REQUIREMENTS",
+      "Non-functional requirements specify the criteria used to evaluate the performance and quality of a system rather than its specific functionalities. These requirements define how the system operates and ensure its efficiency, usability, and reliability.",
+      "Some of the non-functional requirements of the FLEXIBOT system are: \n\t•\tUsability: \n\t\tThe system provides a clean and user-friendly web interface with clear navigation, \t\tsimple forms, and helpful messages. It is designed to be easy to use for students, faculty, \t\tand alumni without requiring technical knowledge.",
+      "•\tPerformance: \n\tThe system responds quickly to user queries, especially in generating chatbot responses \tand retrieving document-based information, ensuring minimal delay.",
+      "•\tReliability: \n\tThe system is designed to operate consistently without failures, ensuring accurate \tresponse generation and proper functioning over time.",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  52"
+    ]
+  },
+  {
+    "table_index": 65,
+    "paragraph_count": 7,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "•\tAvailability: \n\tThe system is available for use at all times, enabling users to access academic assistance \twhenever needed.",
+      "•\tSecurity: \n\tThe system ensures secure user authentication and protects sensitive data through \tproper access control and validation mechanisms.",
+      "•\tScalability: \n\tThe system is capable of handling multiple users simultaneously and can be expanded \tto accommodate future growth.",
+      "•\tPortability: \n\tBeing a web-based application, the system can be accessed across different devices and \tplatforms through a web browser.",
+      "•\tMaintainability: \n\tThe system is designed in a modular way, making it easy to update, modify, and \tmaintain.",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  53"
+    ]
+  },
+  {
+    "table_index": 66,
+    "paragraph_count": 1,
+    "paragraphs": [
+      "CHAPTER-7 \nIMPLEMENTATION AND TESTING"
+    ]
+  },
+  {
+    "table_index": 67,
+    "paragraph_count": 8,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "7.1 SYSTEM IMPLEMENTATION",
+      "System implementation is the process of converting the designed system into a fully functional and operational system. It involves deploying the developed application, testing its components, and ensuring that it works efficiently in a real-world environment. This phase ensures that the system meets user requirements and performs accurately.",
+      "For the FLEXIBOT system, implementation focuses on integrating all modules such as Admin, Faculty, Student, Alumni, and the AI chatbot into a unified platform.",
+      "Types of Implementations \nThe FLEXIBOT system follows: \n\t•\tImplementation of a new computerized system: \n\t\tThe system replaces manual academic assistance methods such as searching through \t\tphysical documents and notices.",
+      "•\tImplementation of a new system over an existing system: \n\tFLEXIBOT enhances the traditional information systems by introducing AI-based \tacademic support and centralized access.",
+      "Implementation Plan \nThe implementation plan defines the steps required to successfully deploy the system. It includes: \n\t•\tIdentifying system objectives and expected outcomes \n\t•\tAllocating required resources (hardware, software, APIs) \n\t•\n\tAssigning responsibilities to developers and administrators \t•\tEnsuring availability of technical infrastructure \n\t•\tPreparing the system for deployment and usage \nMajor Implementation Activities \n\t•\tInstallation and configuration of the system \n\t•\tIntegration of frontend, backend, database, and AI modules \n\t•\tUploading initial academic documents (syllabus, circulars, regulations) \n\t•\tSetting up user roles (Admin, Faculty, Student, Alumni) \n\t•\tTesting chatbot response generation using document-based queries \n\t•\tEnsuring proper validation and security mechanisms \n\t•\tMonitoring system performance and fixing issues",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  54"
+    ]
+  },
+  {
+    "table_index": 68,
+    "paragraph_count": 9,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "User Training \nAfter deployment, users are trained to effectively use the system: \t•\tHow to log in and access the platform \n\t•\tHow to enter and manage data \n\t•\tHow to use the AI chatbot for academic queries \n\t•\tHow to upload documents and manage users (Admin/Faculty)",
+      "Implementation of FLEXIBOT System \nOnce the system is tested and approved, it is deployed for real-time use. All modules are activated, and users can interact with the system through a web interface. The chatbot begins responding to queries based on institutional documents, ensuring accurate and context-aware academic assistance.",
+      "7.2 SYSTEM TESTING",
+      "System testing is the process of evaluating the complete system to ensure that it meets the specified requirements and functions correctly. It involves testing all modules of the system including the frontend, backend, database, and AI chatbot to ensure proper integration and performance.",
+      "In the FLEXIBOT system, testing ensures accurate response generation, smooth user interaction, and reliable data management.",
+      "7.2.1 System Testing \n\t•\tDefinition: Testing the entire system as a whole.",
+      "•\tIn FLEXIBOT: \n\t\toTesting the complete workflow from user query input to chatbot response \t\t\tgeneration \n\t\toVerifying interaction between frontend, backend, database, and AI modules \t\toEnsuring all user roles (Admin, Faculty, Student, Alumni) function correctly",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  55"
+    ]
+  },
+  {
+    "table_index": 69,
+    "paragraph_count": 6,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "7.2.2 Unit Testing \n\t•\tDefinition: Testing individual modules or components separately \t•\tIn FLEXIBOT: \n\t\t\toTesting login, registration, and CRUD operations \n\t\t\toVerifying document upload functionality \n\t\t\toTesting chatbot response generation for specific queries \t\t\toChecking database operations independently",
+      "7.2.3 Integration Testing \n\t•\tDefinition: Testing interaction between combined modules \n\t•\tIn FLEXIBOT: \n\t\t\toEnsuring chatbot properly retrieves data from uploaded documents \t\t\toValidating interaction between backend APIs and frontend interface \t\t\toChecking integration of AI model with the application",
+      "7.2.4 Black Box Testing \n\t•\tDefinition: Testing system functionality without knowing internal code \t•\tIn FLEXIBOT: \n\t\t\toProviding user queries and verifying correct responses \n\t\t\toTesting login and user actions based on expected outputs \t\t\toFocus on input-output behaviour",
+      "7.2.5 Validation Testing \n\t•\tDefinition: Ensures system meets user requirements \n\t•\tIn FLEXIBOT: \n\t\t\toChecking if chatbot provides accurate academic information \t\t\toEnsuring system fulfills all module functionalities \n\t\t\toVerifying system meets project objectives",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  56"
+    ]
+  },
+  {
+    "table_index": 70,
+    "paragraph_count": 5,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "7.2.6 Output Testing \n\t•\tDefinition: Verifying correctness of system outputs \n\t•\tIn FLEXIBOT: \n\t\t\toEnsuring chatbot responses are relevant and understandable \t\t\toVerifying correct display of academic data and documents \t\t\toChecking notification and alert outputs",
+      "7.2.7 User Acceptance Testing (UAT) \n\t•\tDefinition: Testing performed by end users \n\t•\tIn FLEXIBOT: \n\t\t\toUsers (students, faculty, alumni) test the system \t\t\toFeedback collected on usability and performance \t\t\toEnsuring system meets real user expectations",
+      "7.2.8 White Box Testing \n\t•\tDefinition: Testing internal logic and code structure \n\t•\tIn FLEXIBOT: \n\t\t\toTesting backend logic, APIs, and database queries \n\t\t\toVerifying AI processing pipeline (query → embedding → retrieval → response) \t\t\toHandling edge cases like empty queries or invalid inputs",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  57"
+    ]
+  },
+  {
+    "table_index": 71,
+    "paragraph_count": 5,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "7.3 TEST CASES",
+      "1. ADMIN",
+      "2. FACULTY",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  58"
+    ]
+  },
+  {
+    "table_index": 72,
+    "paragraph_count": 4,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "3. STUDENT",
+      "4. ALUMINI",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  59"
+    ]
+  },
+  {
+    "table_index": 73,
+    "paragraph_count": 3,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "5. AI CHATBOT",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  60"
+    ]
+  },
+  {
+    "table_index": 74,
+    "paragraph_count": 1,
+    "paragraphs": [
+      "CHAPTER-8 \nRESULTS AND DISCUSSIONS"
+    ]
+  },
+  {
+    "table_index": 75,
+    "paragraph_count": 6,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "8.1 RESULTS \n\tThe implementation of the FLEXIBOT system has successfully achieved its primary objective of providing an AI-powered academic assistant for students, faculty, and alumni within a centralized platform. The system effectively delivers accurate, document-based academic information through an intelligent chatbot interface.",
+      "The AI chatbot module demonstrated strong performance by retrieving relevant information from institutional documents such as syllabus, circulars, and regulations, and generating context-aware responses. Users were able to obtain academic information quickly without manually searching through multiple documents. The system modules including Admin, Faculty, Student, and Alumni operated efficiently. Admin functionalities such as document upload and user management were performed smoothly. Faculty were able to manage student data, upload study materials, and assign activity points effectively. Students could interact with the chatbot, view academic details, and access job opportunities posted by alumni. Alumni users successfully interacted with students and shared career opportunities. The system-maintained stability and responsiveness during testing. Multiple users were able to access the system simultaneously without performance degradation. The chatbot responses were generated within a short time, ensuring a smooth user experience.",
+      "Key Achievements: \n• The AI chatbot provided accurate and relevant responses based on institutional documents • Efficient document retrieval using semantic search techniques \n• Successful integration of multiple user roles within a single platform \n• Smooth functioning of CRUD operations across all modules \n• Fast response time for chatbot queries and system operations \n• User-friendly interface enabling easy interaction for all users \n• Effective communication between students and alumni through chat module",
+      "The results demonstrate that FLEXIBOT is a reliable and efficient academic assistant system. It enhances access to academic information, reduces manual effort, and improves overall user experience within the institution.",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  61"
+    ]
+  },
+  {
+    "table_index": 76,
+    "paragraph_count": 4,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "8.2 SCREENSHOTS",
+      "HOME PAGE",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  62"
+    ]
+  },
+  {
+    "table_index": 77,
+    "paragraph_count": 5,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "ADMIN LOGIN",
+      "ADMIN DASHBOARD",
+      "ADD ALUMINI",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  63"
+    ]
+  },
+  {
+    "table_index": 78,
+    "paragraph_count": 5,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "UPLOAD DOCUMENTS",
+      "VIEW FACULTY LIST",
+      "SEND ALERTS",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  64"
+    ]
+  },
+  {
+    "table_index": 79,
+    "paragraph_count": 5,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "VIEW DEPARTMENT MASTER",
+      "VIEW PROGRAM MASTER",
+      "VIEW DESIGNATION MASTER",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  65"
+    ]
+  },
+  {
+    "table_index": 80,
+    "paragraph_count": 3,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "FACULTY REGISTRATION",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  66"
+    ]
+  },
+  {
+    "table_index": 81,
+    "paragraph_count": 5,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "FACULTY LOGIN",
+      "FACULTY DASHBOARD",
+      "ADD STUDENT",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  67"
+    ]
+  },
+  {
+    "table_index": 82,
+    "paragraph_count": 4,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "VIEW STUDENT",
+      "VIEW STUDENT ACTIVITY",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  68"
+    ]
+  },
+  {
+    "table_index": 83,
+    "paragraph_count": 5,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "STUDENT DASHBOARD",
+      "CREATE POST",
+      "VIEW POSTS",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  69"
+    ]
+  },
+  {
+    "table_index": 84,
+    "paragraph_count": 5,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "VIEW ACTIVITY",
+      "ADD NEW ACTIVITY",
+      "VIEW JOBS",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  70"
+    ]
+  },
+  {
+    "table_index": 85,
+    "paragraph_count": 5,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "VIEW ALUMINI",
+      "VIEW CONNECTIONS",
+      "CHAT",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  71"
+    ]
+  },
+  {
+    "table_index": 86,
+    "paragraph_count": 5,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "VIEW ALERTS",
+      "VIEW PROFILE",
+      "CHATBOT",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  72"
+    ]
+  },
+  {
+    "table_index": 87,
+    "paragraph_count": 5,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "ALUMINI HOME PAGE",
+      "CREATE POSTS",
+      "CREATE EVENT",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  73"
+    ]
+  },
+  {
+    "table_index": 88,
+    "paragraph_count": 4,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "VIEW CONNECTIONS",
+      "CHAT",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  74"
+    ]
+  },
+  {
+    "table_index": 89,
+    "paragraph_count": 4,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "VIEW STUDENTS",
+      "VIEW STUDENT PROFILE",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  75"
+    ]
+  },
+  {
+    "table_index": 90,
+    "paragraph_count": 1,
+    "paragraphs": [
+      "CHAPTER-9 \nCONCLUSION"
+    ]
+  },
+  {
+    "table_index": 91,
+    "paragraph_count": 10,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "9.1 SYSTEM MAINTENANCE \nAfter deployment, ongoing maintenance of the FLEXIBOT system is essential to ensure that it remains functional, accurate, and adaptable to changing requirements. Maintenance activities are categorized as follows: \n1. Corrective Maintenance \nThis involves fixing errors or issues identified during system operation or reported by users.",
+      "Examples include: \n• Correcting errors in document processing and parsing • Resolving issues in query handling and response generation • Fixing bugs in the chatbot interface and user modules",
+      "2. Adaptive Maintenance \nThis focuses on updating the system to adapt to changes in the technical environment.",
+      "Examples include: \n• Updating NLP libraries, embedding models, and APIs \n• Adapting to changes in institutional document formats \n• Ensuring compatibility with updated software and hosting platforms",
+      "3. Perfective Maintenance \nThis involves enhancing system performance and adding new features based on user feedback.",
+      "Examples include: \n• Improving semantic search for faster and more accurate responses • Enhancing clarity and readability of chatbot responses \n• Adding new features such as advanced search and improved chat history",
+      "4. Preventive Maintenance \nThis focuses on improving system reliability and preventing future issues.",
+      "Examples include: \n• Conducting regular system audits for performance and security • Updating system documentation for better maintainability • Optimizing system structure for scalability",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  76"
+    ]
+  },
+  {
+    "table_index": 92,
+    "paragraph_count": 8,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "9.2 CONCLUSION",
+      "The development and implementation of FLEXIBOT demonstrate how Artificial Intelligence can be effectively utilized to transform traditional academic support systems into a modern, intelligent, and user-friendly platform. The system successfully integrates an AI-powered chatbot with institutional data to provide accurate, context-aware, and document-based responses, thereby reducing dependency on manual information retrieval.",
+      "FLEXIBOT goes beyond a conventional chatbot by offering a complete academic ecosystem that connects Admin, Faculty, Students, and Alumni within a single platform. Each module is designed to perform specific functions such as document management, user management, student activity tracking, academic event handling, and job opportunity sharing. This integration improves communication, collaboration, and overall efficiency within the institution.",
+      "The chatbot module, powered by semantic search and retrieval techniques, ensures that users receive relevant and precise answers based on official academic documents. This not only enhances the reliability of the system but also builds user trust. The system has shown stable performance, quick response time, and the ability to handle multiple users simultaneously without degradation.",
+      "Furthermore, the user-friendly web interface ensures easy accessibility for all users, regardless of their technical background. The system is scalable and can be extended with additional features such as voice interaction, multilingual support, and advanced analytics in the future.",
+      "In conclusion, FLEXIBOT successfully fulfils its objective of providing a centralized, intelligent, and efficient academic assistant. It enhances the accessibility of academic information, streamlines institutional processes, and improves user engagement, making it a valuable solution for modern educational institutions.",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  77"
+    ]
+  },
+  {
+    "table_index": 93,
+    "paragraph_count": 8,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "9.3 FUTURE ENHANCEMENT",
+      "•Voice-based interaction: \nIntegration of voice recognition and speech response features to enable hands-free interaction with the system, improving accessibility and user convenience.",
+      "•Mobile Application Development: \nDevelopment of a dedicated mobile application to provide better accessibility and allow users to access the system anytime and anywhere.",
+      "•Multilingual Support: \nSupport for multiple languages to make the system more user-friendly and accessible to a diverse group of users.",
+      "•Integration with External Academic Systems: \nIntegration with existing academic platforms such as College Management Systems (CMS) to enable seamless data sharing and improved functionality.",
+      "•Advanced AI Model Enhancement: \nContinuous improvement of the chatbot using advanced AI models to enhance accuracy, context understanding, and response quality.",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  78"
+    ]
+  },
+  {
+    "table_index": 94,
+    "paragraph_count": 1,
+    "paragraphs": [
+      "CHAPTER-10 \nBIBLIOGRAPHY"
+    ]
+  },
+  {
+    "table_index": 95,
+    "paragraph_count": 14,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "10.1 BOOKS",
+      "•Speech and Language Processing – Daniel Jurafsky and James H. Martin- A comprehensive book on Natural Language Processing, useful for understanding chatbot concepts and language models.",
+      "•Artificial Intelligence: A Modern Approach – Stuart Russell and Peter Norvig -Covers core AI concepts including intelligent agents, reasoning, and machine learning.",
+      "•Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow – Aurélien Géron- Practical guide for machine learning techniques applicable in AI-based systems.",
+      "•Deep Learning – Ian Goodfellow, Yoshua Bengio, Aaron Courville-Covers deep \tlearning fundamentals used in modern AI models.",
+      "•Python Crash Course – Eric Matthes-Useful for understanding Python programming \tused in backend and AI modules.",
+      "•Flask Web Development – Miguel Grinberg-Covers development of web applications \tusing Flask.",
+      "•Learning MySQL – Seyed Tahaghoghi, Hugh E. Williams-Helps in understanding \tdatabase design and management.",
+      "10.2 WEBSITES",
+      "•\tReact \n\t\n\tUsed for building the frontend user interface.",
+      "•\tFlask \n\t\n\tUsed for backend API development.",
+      "•\tNode.js \n\t\n\tUsed for server-side operations.",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  79"
+    ]
+  },
+  {
+    "table_index": 96,
+    "paragraph_count": 13,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "•\tMySQL \n\t\n\tUsed for database management.",
+      "•\tFAISS \n\t\n\tUsed for efficient similarity search and vector retrieval.",
+      "•\tSentence Transformers \n\t\n\tUsed for generating semantic embeddings.",
+      "•\tGroq \n\t\n\tUsed for accessing high-performance LLM inference.",
+      "•\tLLaMA \n\t\n\tLarge Language Model used for response generation.",
+      "•\tVisual Studio Code \n\t\n\tUsed as the development environment.",
+      "10.3 JOURNALS AND PUBLICATIONS",
+      "[1] P. Darshan, E. Sanghavi, G. Chennakeshava, M. M. Kodabagi, et al., “AI Chatbot for Educational Institution: A Case Study,” IEEE, 2025.",
+      "[2] R. Ananya, S. P. Bharath Kumar, Ch. Deekshith Reddy, B. V. Srikanth, “Artificial Intelligence Chatbot For Education,” Journal of Science, Computing and Engineering Research (JSCER), Feb. 2025.",
+      "[3] G. S. Masula, R. Barrios, E. Hilario, “Chatbot as Academic Companion: Exploring Education Students’ Narratives in Using AI in Learning,” Journal of Interdisciplinary Perspectives, Jun. 2025.",
+      "[4] P. Kunekar, O. Thigale, M. Waghmode, S. Telsang, S. Shinde, M. Thakare, “AI-Driven Alumni Networking Platform,” IEEE, 2024.",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  80"
+    ]
+  },
+  {
+    "table_index": 97,
+    "paragraph_count": 7,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "[5] S. Ch., J. Ismail, V. Anil, Venkatesh, S. Rasheed, “AI Powered Academic Assistant Using Conversational AI,” IEEE, 2023.",
+      "[6] R. Llanos, G. M. Gonzales, J. Morzan, “Enhancing Student Success through AI Virtual Assistant,” IEEE, 2023.",
+      "[7] L. Labadze, M. Grigolia, L. Machaidze, “Role of AI Chatbots in Education: Systematic Literature Review,” International Journal of Educational Technology in Higher Education, 2023.",
+      "[8] J. Belda-Medina, V. Kokošková, “Integrating Chatbots in Education: Insights from the CHISM Model,” International Journal of Educational Technology in Higher Education, 2023.",
+      "[9] M. A. Kuhail, N. Alturki, S. Alramlawi, “Interacting with Educational Chatbots: A Systematic Review,” Education and Information Technologies, 2022.",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  81"
+    ]
+  },
+  {
+    "table_index": 98,
+    "paragraph_count": 1,
+    "paragraphs": [
+      "APPENDICES"
+    ]
+  },
+  {
+    "table_index": 99,
+    "paragraph_count": 4,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "LIST OF TABLES",
+      "1. DB TABLES:",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  82"
+    ]
+  },
+  {
+    "table_index": 100,
+    "paragraph_count": 4,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "2. TEST-CASES",
+      "LIST OF FIGURES",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  83"
+    ]
+  },
+  {
+    "table_index": 101,
+    "paragraph_count": 3,
+    "paragraphs": [
+      "FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT",
+      "GIT HISTORY",
+      "DEPARTMENT OF COMPUTER APPLICATION                                                                                                  84"
+    ]
+  }
+]

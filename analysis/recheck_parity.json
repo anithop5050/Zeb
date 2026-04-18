@@ -1,0 +1,23 @@
+{
+  "paragraph_count_base": 305,
+  "paragraph_count_out": 305,
+  "table_count_base": 102,
+  "table_count_out": 102,
+  "section_count_base": 102,
+  "section_count_out": 102,
+  "sections_equal": true,
+  "style_sequence_equal": true,
+  "paragraph_format_signature_equal": true,
+  "run_font_signature_equal": true,
+  "table_shape_equal": true,
+  "header_footer_setup_equal": true,
+  "field_counts_base": {
+    "field_nodes": 0,
+    "page_field_nodes": 0
+  },
+  "field_counts_out": {
+    "field_nodes": 0,
+    "page_field_nodes": 0
+  },
+  "field_counts_equal": true
+}

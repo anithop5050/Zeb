@@ -1,0 +1,14 @@
+DOCX Parity Recheck
+
+Paragraphs: 305 -> 305
+Tables: 102 -> 102
+Sections: 102 -> 102
+Section page setup equal: True
+Paragraph style sequence equal: True
+Paragraph format signature equal: True
+Run font signature equal: True
+Table shape equal: True
+Header/footer setup equal: True
+Field counts equal: True
+Field counts (base): {'field_nodes': 0, 'page_field_nodes': 0}
+Field counts (out) : {'field_nodes': 0, 'page_field_nodes': 0}

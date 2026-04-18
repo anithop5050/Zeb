@@ -1,0 +1,119 @@
+
+=== IDX 40 (paras=3) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: 2. ALUMINI
+P2: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  29
+
+=== IDX 41 (paras=3) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: 3. ALUMINI_MASTER
+P2: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  30
+
+=== IDX 42 (paras=3) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: 4. ALUMINI_PROFILE
+P2: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  31
+
+=== IDX 43 (paras=3) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: 5. ALUMINI_EDUCATION
+P2: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  32
+
+=== IDX 44 (paras=3) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: 6. ALUMINI_EXPERIENCE
+P2: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  33
+
+=== IDX 45 (paras=3) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: 7. ALUMINI_EVENTS
+P2: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  34
+
+=== IDX 46 (paras=4) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: 8. ALUMINI_SKILLS
+P2: 9. ALERTS
+P3: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  35
+
+=== IDX 47 (paras=3) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: 10. CHATBOT_MESSAGES
+P2: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  36
+
+=== IDX 48 (paras=3) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: 11. CONNECTIONS
+P2: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  37
+
+=== IDX 49 (paras=3) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: 12. CONTACT_MESSAGES
+P2: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  38
+
+=== IDX 50 (paras=3) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: 13. CONVERSATIONS
+P2: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  39
+
+=== IDX 51 (paras=4) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: 14. DEPARTMENT_MASTER
+P2: 15. DESIGNATION MASTER
+P3: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  40
+
+=== IDX 52 (paras=3) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: 16.FACULTY
+P2: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  41
+
+=== IDX 53 (paras=3) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: 17. FAC_LOGIN_MASTER
+P2: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  42
+
+=== IDX 54 (paras=3) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: 18. MESSAGES
+P2: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  43
+
+=== IDX 55 (paras=3) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: 19. NOTIFICATIONS
+P2: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  44
+
+=== IDX 56 (paras=3) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: 20. POSTS
+P2: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  45
+
+=== IDX 57 (paras=4) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: 21. PROGRAM MASTER
+P2: 22. PROGRAM_MASTER_DETAIL
+P3: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  46
+
+=== IDX 58 (paras=3) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: 23. STUDENT
+P2: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  47
+
+=== IDX 59 (paras=3) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: 24. STUDENT_ACTIVITIES
+P2: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  48
+
+=== IDX 60 (paras=3) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: 25. STUDENT_POSTS
+P2: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  49
+
+=== IDX 61 (paras=4) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: 26. USER_STATUS
+P2: 27. USER_LOGIN
+P3: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  50
+
+=== IDX 62 (paras=3) ===
+P0: FLEXIBOT-AN AI POWERED ACADEMIC ASSISTANT
+P1: 28. USER_GROUP_MASTER
+P2: DEPARTMENT OF COMPUTER APPLICATION                                                                                                  51
